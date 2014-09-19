@@ -59,4 +59,5 @@ sed -r 's/&nbsp;.*//' 3.txt |  tr -s '\t' '\t' > 4.txt
 cut -f 2 4.txt | perl -pe 's/\r?\n/|/' > Shreholding_pattern.txt
 rm 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 
 echo "pappu"
+echo "ninna aa rahi hai"
 
