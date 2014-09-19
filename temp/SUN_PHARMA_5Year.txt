@@ -1,0 +1,949 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/js/jquery.countdown.min.js"></script>
+
+                <script type="text/javascript">
+                    var iGetAsyncServices = 0;
+                </script>  
+    
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1076261/ROS_top_center_728_90', [728, 90], 'div-gpt-ad-1366769652392-0').addService(googletag.pubads());
+googletag.defineSlot('/1076261/ROS_top_right_468_60', [468, 60], 'div-gpt-ad-1366769652392-1').addService(googletag.pubads());
+googletag.defineSlot('/1076261/Stockquote_Pages_300_600', [300, 600], 'div-gpt-ad-1366769652392-2').addService(googletag.pubads());
+googletag.defineSlot('/1076261/Views_On_News', [300, 250], 'div-gpt-ad-1366769652392-3').addService(googletag.pubads());
+googletag.defineSlot('/1076261/ROS_top_center_160_600', [160, 600], 'div-gpt-ad-1366769652392-4').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<script type="text/javascript">
+	var iShowSQCh = 1;
+</script>
+
+<title>SUN PHARMACEUTICAL INDUSTRIES LIMITED (524715 | SUNPHARMA~EQ) Detailed Financial Information - SUN PHARMACEUTICAL INDUSTRIES LIMITED Company Fact Sheet and Latest Results - Equitymaster.com</title>
+<meta name="Description" content="Get SUN PHARMACEUTICAL INDUSTRIES LIMITED (524715 | SUNPHARMA~EQ) Fact Sheet, Detailed Financial Information and Latest Results online at Equitymaster India" />
+<meta name="keywords" content="SUN PHARMACEUTICAL INDUSTRIES LIMITED, 524715, SUNPHARMA~EQ, stock quote, SUN PHARMACEUTICAL INDUSTRIES LIMITED stock quote, stock research, SUN PHARMACEUTICAL INDUSTRIES LIMITED stock research, SUN PHARMACEUTICAL INDUSTRIES LIMITED data sheet, SUN PHARMACEUTICAL INDUSTRIES LIMITED fact sheet, SUN PHARMACEUTICAL INDUSTRIES LIMITED latest results, SUN PHARMACEUTICAL INDUSTRIES LIMITED detailed financial information" />
+<meta name="Revisit-After" content="7 Days" />
+<meta name="Robots" content="all,follow" />
+<link rel="canonical" href="http://www.equitymaster.com/research-it/company-info/detailed-financial-information.asp?symbol=SUNP&name=SUN-PHARMA-Detailed-Financial-Data" />
+
+<script type="text/javascript" src="http://www.eqimg.com/js/mainmenudoc_new.js"></script>
+
+<script type="text/javascript" src="/FusionCharts/FusionCharts.js"></script>
+
+<script type="text/javascript" src="/js/ads2.js"></script>
+<script type="text/javascript">
+var sRecoFileName = "/research-it/ResearchCompanies.xml";
+</script>
+<script type="text/javascript" src="/js/ddextra.js"></script>
+<script type="text/javascript">
+function recommend(title)
+{
+	url = window.location.href;
+	var recommend = window.open("/recommend/recommend.asp?title=" + title + "&url=" + url ,"recommend","height=230,width=400,toolbars=false");
+}
+function frmSubmitPrint()
+{
+	document.getElementById('frmCompareInfo').action = "compinfo_print.asp";
+	document.getElementById('frmCompareInfo').submit();
+	return;
+}
+var strDivId = "";
+function fnStockFnName(sCSymbol){
+if(document.getElementById('divRecoOpts')!=null){document.getElementById('divRecoOpts').style.display='none';}
+if(strDivId==""){window.location.href='/research-it/company-info/detailed-financial-information.asp?symbol='+sCSymbol;}
+else {document.getElementById('h_CodeScrip').value=sCSymbol;document.getElementById('frmwebCompare').action='/research-it/compare/comp_sectr.asp';document.getElementById('frmwebCompare').submit();}
+return false;}
+function fnStockKP(e){
+fnRecoFnName("fnStockFnName");
+var sCode = 0;if (e!=null){sCode=(e.charCode) ? e.charCode : e.keyCode;}
+if(sCode == 13 && document.getElementById('HdrRecoHdnSel').value!=""){fnStockFnName(document.getElementById('HdrRecoHdnSel').value);return false;}
+else if(sCode == 13) {getCompany();return false;}
+return true;}
+function getCompany()
+{
+    var co_code = window.document.frmmain.txtKeyword.value;
+
+    if(!isBlank(co_code))
+    {
+       window.document.frmmain.h_CodeScrip.value = co_code;
+       window.document.frmmain.submit();
+    }
+    else
+    {
+        alert("Please enter a company name to search...");
+        window.document.frmmain.txtKeyword.focus();
+    }
+	return ;
+}
+function isBlank(s)
+{
+  var len,k,flg;
+  flg=true;
+  if(s!=null)
+  {
+	len=s.length;
+	for(k=0;k<len;k++)
+     {
+      if(s.substring(k,k+1)!=" ")
+		    flg=false;
+     }
+  }
+ return flg;
+}
+</script>
+<style type="text/css">
+.hdr{font-family:Verdana;font-size:24px;color:red;font-weight:normal;margin:0px;padding:0px}
+.capitalize {text-transform:capitalize;}
+.ancChart{text-decoration:underline;color:Black;cursor:pointer;cursor:hand;font-family:Arial;font-size:8pt;font-weight:bold}
+.spnChart{padding-left:20px;}
+</style>
+</head>
+<body marginwidth="1" marginheight="1" leftmargin="1" topmargin="1" bgcolor="white">
+
+<table cellpadding="2" cellspacing="0" border="0" width="100%">
+<tr valign="center">
+<td width="184"><a href="/" target="_top"><img src="http://www.eqimg.com/icons/eqtm_small1.gif" alt="Investing in India? Get Equitymaster Research" border="0" width="184" height="43" /></a></td>
+<td width="*">&nbsp;</td>
+<td width="470">
+<div style='float:right'><a href='http://www.equitymaster.com/ptmail/m0814/mega-trends/registration.asp?regsrc=366&utm_source=homepage&utm_medium=website&utm_campaign=top-right-ad&utm_content=recent-articles' target="_blank">
+<img src='/ptmail/m0814/mega-trends/index-ad-225-60-megatrends.jpg' alt='Megatrends' border='0' /></a></div>
+</td></tr></table>
+<script type="text/javascript">
+displayMainMenu("Researchit");
+displaySubMenu("Researchit");
+</script>
+<table width="180px" align="right">
+<tr style="height:15px"><td></td></tr>
+<tr><td align="center">
+
+<div id='div-gpt-ad-1366769652392-4' style='width:160px; height:600px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1366769652392-4'); });
+</script>
+</div>
+
+</td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="80%" style="margin-left:15px">
+<tr>
+<td>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td colspan="2">
+<link rel='Stylesheet' type='text/css' href='/css/BreadCrumb.css' /><div itemscope itemtype="http://schema.org/Article"><table width='80%' cellpadding='0' cellspacing='1' border='0'><tr valign=top><td id="tdBC" colspan="2" class="BreadCrumb"><a id='aBreadCrumb' href='/index.asp?utm_source=breadcrumb&utm_medium=website&utm_campaign=performance&utm_content=home' class='aBCNew'>Home</a><span style='color:Black'>&nbsp;&gt;&nbsp</span><a id='a1' href='/research-it/?utm_source=breadcrumb&utm_medium=website&utm_campaign=performance&utm_content=research-it' class='aBCNew'>Research It</a><span style='color: Black'>&nbsp;&gt;&nbsp;</span><a id='a2' href='/result.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart' class='aBCNew'>SUN PHARMACEUTICAL INDUSTRIES LIMITED</a>&nbsp;(<a class='aBCNew' href='/research-it/sector-info/pharma' style='text-transform:capitalize'>pharmaceuticals</a>)<span style='color: Black'>&nbsp;&gt;&nbsp;<span itemprop="name">SUN PHARMACEUTICAL INDUSTRIES LIMITED Financial Data</span></span></td></tr><tr><td style='height: 5px'></td></tr></table></div>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="height :5px"></td>
+</tr>
+<!--tr>
+<td style="font-family:Arial;font-size:13px;font-weight: bold" colspan="2">Detailed Financial Information</td>
+</tr-->
+<tr>
+<td style="width:65%">
+
+<h1 class="hdr"><span onmouseover='javascript:return fnSecOnOver();' onmouseout='javascript:return fnSecOnOut();'>SUN PHARMACEUTICAL INDUSTRIES LIMITED&nbsp;<a id='aSectorDiv' style='cursor:pointer;cursor:hand' onclick='javascript:return fnShowSectors();'><img src='http://www.eqimg.com/images/pt-down-arrow-9px.gif' width='8' height='5' class='secdiva' /></a>&nbsp;<span style="color:Black;font-size:10px;font-weight:bold">(SUNP)</span></span>
+<br /><input type="hidden" id="HdrSecHdn" value="" /><input type="hidden" id="HdrSecHdn1" value="" />
+    <div id='divSectorDiv' class='qcdivout' style='display:none;'>
+    <div id='divSectorDiv1' class='qcdivin' style="height:258px">
+    <div id='divSec1' class='qcdivin1' style='border-bottom:solid 1px #eeeeee;font-weight:bold' tabindex='-1'>&nbsp;&nbsp;&nbsp;More on SUN PHARMACEUTICAL INDUSTRIES LIMITED&nbsp;&nbsp;&nbsp;</div>
+    <div id='divSec2' onclick="javascript:return fnSecGoTo('/f-detail.ASP?Symbol=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=related-views');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSec2');" onmouseout="javascript:fnSecOnMOut('divSec2);" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec2' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSec2');" onmouseout="javascript:fnSecOnMOut('divSec2);" class='qcdivin1a' style='outline:none' tabindex='-1'>Related Views</a>&nbsp;&nbsp;&nbsp;</div>
+    
+    <div id='divSec3' onclick="javascript:return fnSecGoTo('/result.asp?symbol=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=stockquote');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSec3');" onmouseout="javascript:fnSecOnMOut('divSec3);" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec3' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSec3');" onmouseout="javascript:fnSecOnMOut('divSec3);" class='qcdivin1a' style='outline:none' tabindex='-1'>Detailed Stock Quote</a>&nbsp;&nbsp;&nbsp;</div>
+    <div id='divSecRR3' onclick="javascript:return fnSecGoTo('/research-it/company-info/comp_infoQ.asp?h_CodeScrip=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=quarterly-result');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSecRR3');" onmouseout="javascript:fnSecOnMOut('divSecRR3');" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec1' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSecRR3');" onmouseout="javascript:fnSecOnMOut('divSecRR3');" class='qcdivin1a' style='outline:none' tabindex='-1'>Quarterly Results</a>&nbsp;&nbsp;&nbsp;</div><div id='divSecRR4' onclick="javascript:return fnSecGoTo('/research-it/compare/comp_sectr.asp?h_CodeScrip=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=compare-company');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSecRR4');" onmouseout="javascript:fnSecOnMOut('divSecRR4');" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec1' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSecRR4');" onmouseout="javascript:fnSecOnMOut('divSecRR4');" class='qcdivin1a' style='outline:none' tabindex='-1'>Compare Company</a>&nbsp;&nbsp;&nbsp;</div>
+    <div id='divSec5' onclick="javascript:return fnSecGoTo('/portfolio/index.asp?symbol=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=add-to-portfolio');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSec5');" onmouseout="javascript:fnSecOnMOut('divSec5);" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec5' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSec5');" onmouseout="javascript:fnSecOnMOut('divSec5);" class='qcdivin1a' style='outline:none' tabindex='-1'>Add To Portfolio</a>&nbsp;&nbsp;&nbsp;</div>
+    <div id='divSecRR6' class='qcdivin1' style='border-bottom:solid 1px #eeeeee;font-weight:bold' tabindex='-1'>&nbsp;&nbsp;&nbsp;Subscriber Features&nbsp;&nbsp;&nbsp;</div><div id='divSecRR1' onclick="javascript:return fnSecGoTo('/qv/qdetail.asp?story=6&date=7/19/2013&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=research-report');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSecRR1');" onmouseout="javascript:fnSecOnMOut('divSecRR1');" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec1' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSecRR1');" onmouseout="javascript:fnSecOnMOut('divSecRR1');" class='qcdivin1a' style='outline:none' tabindex='-1'>Research Report <span class='qcdivin1span'>(Jul&nbsp;19, 2013)</span></a>&nbsp;&nbsp;&nbsp;</div><div id='divSecRR2' onclick="javascript:return fnSecGoTo('/detail.asp?date=8/18/2014&story=2&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=our-view');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSecRR2');" onmouseout="javascript:fnSecOnMOut('divSecRR2');" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec1' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSecRR2');" onmouseout="javascript:fnSecOnMOut('divSecRR2');" class='qcdivin1a' style='outline:none' tabindex='-1'>Our View <span class='qcdivin1span'>(Aug&nbsp;18, 2014)</span></a>&nbsp;&nbsp;&nbsp;</div><div id='divSecRR5' onclick="javascript:return fnSecGoTo('/outlook/all-recommendations.asp?symbol=SUNP&utm_source=factsheet&utm_medium=website&utm_campaign=more-info&utm_content=all-recommendations');" class='qcdivin1' style='border-bottom:solid 1px #eeeeee' onmouseover="javascript:fnSecOnMOver('divSecRR5');" onmouseout="javascript:fnSecOnMOut('divSecRR5');" tabindex='-1'>&nbsp;&nbsp;&nbsp;<a id='aSec1' style='cursor:pointer;cursor:hand' onmouseover="javascript:fnSecOnMOver('divSecRR5');" onmouseout="javascript:fnSecOnMOut('divSecRR5');" class='qcdivin1a' style='outline:none' tabindex='-1'>All Recommendations</a>&nbsp;&nbsp;&nbsp;</div>
+    </div></div>
+
+<script type="text/javascript">
+function fnSecGoTo(sGoURL){
+document.getElementById('divSectorDiv').style.display='none';window.location.href=sGoURL;return false;}
+function fnShowSectors(){
+if(document.getElementById('divSectorDiv').style.display==''){document.getElementById('divSectorDiv').style.display='none';document.getElementById('HdrSecHdn1').value="";}
+else {document.getElementById('divSectorDiv').style.display='';document.getElementById('HdrSecHdn1').value="1";setTimeout("document.getElementById('HdrSecHdn1').value='';","300");}
+return false;}
+function fnSecOnMOver(sSecDivId){
+document.getElementById(sSecDivId).style.backgroundColor='#eeeeee';
+if(document.getElementById('HdrSecHdn').value != '' && document.getElementById('HdrSecHdn').value != sSecDivId){document.getElementById(document.getElementById('HdrSecHdn').value).style.backgroundColor='white';}
+document.getElementById('HdrSecHdn').value=sSecDivId;}
+function fnSecOnMOut(sSecDivId){
+document.getElementById(sSecDivId).style.backgroundColor='white';
+if(document.getElementById('HdrSecHdn').value==sSecDivId){document.getElementById('HdrSecHdn').value="";}}
+var secShow=null;
+function fnSecOnOver(){
+secShow = setTimeout("fnShowSectors1()",500);}
+function fnSecOnOut(){
+if(secShow != null){clearTimeout(secShow);}}
+function fnShowSectors1(){
+document.getElementById('divSectorDiv').style.display='';document.getElementById('HdrSecHdn1').value="1";setTimeout("document.getElementById('HdrSecHdn1').value='';","300");}
+</script>
+
+</h1>
+</td>
+<td style="width:35%;font-family:Arial;font-size:10px" align="right"><form name="frmmain" id="frmmain" method="post" action="/research-it/company-info/srchsymbol.asp">
+<div id="tdBodyQuoteTxt" style="width:350px;font-weight:normal"><input type="text" name="txtKeyword" style='font-family:arial; font-size:9pt' size="23" autocomplete='off' id='BodyQuoteTxt' value="Enter Company" onfocus="javascript:if(this.value.replace(/ /gi,'').toLowerCase()=='entercompany'){this.value='';}" onblur="javascript:if(this.value.replace(/ /gi,'').toLowerCase()==''){this.value='Enter Company';}" onkeyup="javascript:return fnRecoKU(event,'tdBodyQuoteTxt');" onkeypress="javascript:return fnStockKP(event,'');"><br />
+<div id='divRecoOpts' class='qcdivout' style='display:none;float:right'><div id='divRecoOpts1' style="position: absolute; top: 0px; right: 0px; width: auto;display:inline-block;-moz-transition:opacity 0.218s ease 0s;background:none repeat scroll 0 0 #FFFFFF;border: solid 1px #eeeeee;box-shadow:0px 2px 4px #bbbbbb;-moz-box-shadow:0px 2px 4px #bbbbbb;-webkit-box-shadow:0px 2px 4px #bbbbbb;border-collapse:separate;height:250px; overflow: hidden; z-index: 1001; text-align:left;">
+</div></div></div>
+<input type='hidden' id='HdrRecoHdn' value='' /><input type='hidden' id='HdrRecoHdnSel' value='' />
+<input type="hidden" id="h_CodeScrip" name="h_CodeScrip" value="SUNP" />
+<input type="hidden" id="h_NameScrip" name="h_NameScrip" value="SUN PHARMACEUTICAL INDUSTRIES LIMITED" />
+<input type="hidden" id="h_RecoName" name="h_RecoName" value="Sun Pharma" />
+<input type="hidden" id="h_EncName" name="h_EncName" value="SUN-PHARMA" />
+</form></td>
+</tr>
+<tr>
+<td style="padding-bottom:10px" colspan="2">
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_pinterest_pinit"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=equitymaster"></script>
+<!-- AddThis Button END --> 
+
+</td>
+</tr>
+</table>
+<!--Price History-->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="bottom" colspan="3" style="font-family:Arial;font-size:9pt;text-align:justify">
+<!--Profile -->
+
+&nbsp;
+
+<!--End of Profile -->
+</td>
+
+<td style="width:35%;padding:0 0px" rowspan="2" valign="top" align="center"><center><div style="font-family:Arial;font-size:12px;font-weight:bold;"><span class='capitalize'>sun pharma</span> - 1 Year Stock Price Chart</div></center><div id="divSQChart" style="height:200px;width:350px;text-align:center;vertical-align:middle;"><img src='http://www.eqimg.com/images/loading.gif' alt='Loading...' height='16' width='16' style="padding-top:72px" /></div>
+<div style="padding-top:10px;margin-left:10px;width:100%;text-align:center">
+<a id="a1d" href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=1&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-1D#divChart" class="ancChart">1d</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=2&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-1W#divChart" class="ancChart">1w</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=3&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-1M#divChart" class="ancChart">1m</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=4&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-3M#divChart" class="ancChart">3m</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=5&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-6M#divChart" class="ancChart">6m</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=6&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-1Y#divChart" class="ancChart">1y</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=7&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-3Y#divChart" class="ancChart">3y</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=8&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-5Y#divChart" class="ancChart">5y</a><span class="spnChart"></span><a href="/charts/compgraph.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&period=9&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Stock-Price-Chart-Max#divChart" class="ancChart">Max</a>
+</div>
+</td>
+</tr>
+<tr><td style="width:65%;vertical-align:top">
+<br /><table border="0" cellpadding="1" cellspacing="0" width="100%" >
+<tr>
+	<td colspan="7">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+			    <td width="138px" style="background-color:Red;font-family:Arial;font-size:9pt;color:white"><a name="Price"><b>&nbsp;Price History</b></a></td>
+			    <td width="*"><hr noshade color="black" size="1" width="100%" /></td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" width="22%" align="left">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/result.asp?symbol=SUNP&name=SUN-PHARMA-Stock-Quote-Chart&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Price" style="color:Black">Price</a></td>
+	<td style="border-bottom:1px solid #bbbbbb;" width="7%" align="right">Rs</td>
+	<td style="border-bottom:1px solid #bbbbbb;" width="17%" align="right">792.3</td>
+	<td style="border-bottom:1px solid #bbbbbb;" width="8%" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" width="22%" align="left">&nbsp;&nbsp;&nbsp;&nbsp;No. of shares</td>
+	<td style="border-bottom:1px solid #bbbbbb;" width="7%" align="right">m</td>
+	<td style="border-bottom:1px solid #bbbbbb;" width="17%" align="right">2,071.16</td>
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+	<td  style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;Mkt Cap</td>
+	<td  style="border-bottom:1px solid #bbbbbb;" align="right">Rs m</td>
+	
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">1,640,980</td>
+    
+    <td style="border-bottom:1px solid #bbbbbb;" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;% ch</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">%</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">-0.7</td>
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;Vol</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">'000</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">294.9</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;% ch week</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">%</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">-7.9</td>
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/charts/compgraph.asp?txtGrSymb=&choose=0&choosevaln=on&ddlValnSymb=BSNX&period=7&Symbol=SUNP%2C&MAverage=&PrnFriend=0&Type=pe&CmpSymbol=SUNP%2C&chkSymbol=0&filename=chartvaln.asp&utm_source=CompInfoPage&utm_medium=website&utm_campaign=usage&utm_content=PE-chart#divChart" style="color:Black">P/E</a></td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">X</td>
+    
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">28.0</td>
+    
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;% ch 1-mth</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">%</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">-2.8</td>
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+    <td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;P/CF</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">X</td>
+    
+		<td  style="border-bottom:1px solid #bbbbbb;" align="right">38.3</td>
+    
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;% ch 12-mth</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">%</td>
+	
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">40.9</td>
+	
+</tr>
+<tr style="font-family:Arial;font-size:9pt;">
+    <td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/research-it/company-info/quarterly-company-results.asp?h_CodeScrip=SUNP&name=SUN-PHARMA-Quarterly-Result&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=EPS" style="color:Black">EPS</a>&nbsp;<span style="font-size:8pt">(TTM)</span></td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">Rs</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">28.3</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">&nbsp;</td>
+	<td style="border-bottom:1px solid #bbbbbb;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;" align="left">&nbsp;&nbsp;&nbsp;&nbsp;52 week H/L</td>
+	<td style="border-bottom:1px solid #bbbbbb;" align="right">Rs</td>
+	
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">877.4/535.6</td>
+	
+</tr>
+<tr><td colspan="3" style="font-family:Arial;font-size:8pt;color:Black">
+(As on Sep 17, 2014 03:42:00 PM)</td>
+<td colspan="4" style="font-family:Arial;font-size:8pt;color:Black" align="right">
+
+<font size="3"><b>&#187;</b></font>&nbsp;&nbsp;<a href='/stockquotes/mkt-stats/sresult.asp?ig=1&fg=pharma&lt=25&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Best-Performing-Stocks' class="capitalize" style="color:Blue">Best Performing pharmaceuticals Stocks</a>
+
+</tr>
+</table>
+</td>
+</tr></table>
+<br />
+<!--End of Price History-->
+
+		<table border="0" cellpadding="2" cellspacing="0" width="100%">
+		<tr><td colspan="8" align="right"><font face=verdana size=1><a href="/write_to_us.asp?pg_title=company+factsheet+feedback" style="color:blue" target="_blank">DO YOU LIKE THESE FACTSHEETS? TELL US!</a></font></td></tr>
+		<tr><td colspan="8">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				    <td width="138px" style="background-color:red;font-family:Arial;font-size:9pt;color:white"><a name="Financials"><b>&nbsp;Financials</b></a></td>
+				    <td width="*"><hr noshade color="black" size="1" width="100%" /></td>
+			</table>
+		</td></tr>
+		<tr>
+		<td align="left" width="25%" valign="bottom" style="font-family:Arial;font-size:8pt;"><br /><span style="color:red">*</span> Results Consolidated</td>
+		<td align="right" width="10%" style="font-family:Arial;font-size:9pt;"><b>No. of Months<br />Year Ending</b></td>
+		
+		<td align="right" width="11%" style="font-family:Arial;font-size:9pt;"><b>12<br />
+		Mar-10</b><span style="color:red">*</span></td>
+		
+		<td align="right" width="11%" style="font-family:Arial;font-size:9pt;"><b>12<br />
+		Mar-11</b><span style="color:red">*</span></td>
+		
+		<td align="right" width="11%" style="font-family:Arial;font-size:9pt;"><b>12<br />
+		Mar-12</b><span style="color:red">*</span></td>
+		
+		<td align="right" width="11%" style="font-family:Arial;font-size:9pt;"><b>12<br />
+		Mar-13</b><span style="color:red">*</span></td>
+		
+		<td align="right" width="11%" style="font-family:Arial;font-size:9pt;"><b>12<br />
+		Mar-14</b><span style="color:red">*</span></td>
+		
+		<td id="tdChTd0" width="10%" style="font-family:Arial;font-size:9pt;text-align:center"><b><a onclick="javascript:fnShowGraph(1,0);" style="cursor:pointer;cursor:hand;text-decoration:none">5-Yr Chart<br /><span style="font-size:7pt;"><u>Click to enlarge</u></span></a></b><input type="hidden" id="hdnChYears" value="2010,2011,2012,2013,2014,~31/03/2010,31/03/2011,31/03/2012,31/03/2013,31/03/2014," /></td>
+		</tr>
+		
+				                </table>
+				                <table border="0" cellpadding="2" cellspacing="0" width="100%">
+				                
+				                <tr><td style="width:25%;padding:0px"></td><td style="padding:0px" colspan="7"></td></tr>
+				                
+								<tr style="height:20px;background-color:#eeeeee;"><td colspan="8" style="font-family:Arial;font-size:10pt;color:Black;border-bottom:1px solid #bbbbbb;">
+		                            <b>&nbsp;&nbsp;EQUITY SHARE DATA</b>
+								</td>
+								</tr>
+								<tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">High</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,807</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">511</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">594</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">848</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">653</td><td id="tdChTd1" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Low</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,054</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">303</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">423</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">554</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">493</td><td id="tdChTd2" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Sales per share (Unadj.)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">193.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">55.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">77.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">109.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">77.6</td><td id="tdChTd3" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh1'>&nbsp;</span><input id='hdnCh1' value='Sales per share (Unadj.)~Rs~193.5,55.3,77.4,109.1,77.6,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Earnings per share (Unadj.)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">65.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">25.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">28.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">15.2</td><td id="tdChTd4" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh2'>&nbsp;</span><input id='hdnCh2' value='Earnings per share (Unadj.)~Rs~65.2,17.5,25.7,28.8,15.2,' type='hidden' />
+				</td></tr><tr><td width='25%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Diluted earnings per share</td><td width='10%' align='right' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Rs</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>6.5</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>8.8</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>12.8</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>14.4</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>15.2</td><td id="tdChTd5" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh3'>&nbsp;</span><input id='hdnCh3' value='Diluted earnings per share~Rs~6.5,8.8,12.8,14.4,15.2,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Cash flow per share (Unadj.)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">72.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">28.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">32.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.1</td><td id="tdChTd6" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh4'>&nbsp;</span><input id='hdnCh4' value='Cash flow per share (Unadj.)~Rs~72.6,19.5,28.5,32.1,17.1,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Dividends per share (Unadj.)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">13.75</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3.50</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.25</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5.00</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1.50</td><td id="tdChTd7" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh5'>&nbsp;</span><input id='hdnCh5' value='Dividends per share (Unadj.)~Rs~13.75,3.50,4.25,5.00,1.50,' type='hidden' />
+				</td></tr><tr><td width='25%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Adj. dividends per share</td><td width='10%' align='right' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Rs</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>1.38</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>1.75</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>2.13</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>2.50</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>1.50</td><td id="tdChTd8" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh6'>&nbsp;</span><input id='hdnCh6' value='Adj. dividends per share~Rs~1.38,1.75,2.13,2.50,1.50,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Dividend yield (eoy)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.3</td><td id="tdChTd9" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh7'>&nbsp;</span><input id='hdnCh7' value='Dividend yield (eoy)~%~1.0,0.9,0.8,0.7,0.3,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Book value per share (Unadj.)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">378.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">91.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">118.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">144.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">89.4</td><td id="tdChTd10" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh8'>&nbsp;</span><input id='hdnCh8' value='Book value per share (Unadj.)~Rs~378.0,91.6,118.2,144.7,89.4,' type='hidden' />
+				</td></tr><tr><td width='25%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Adj. book value per share</td><td width='10%' align='right' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>Rs</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>37.8</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>45.8</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>59.1</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>72.4</td><td align='right' width='11%' style='font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;'>89.4</td><td id="tdChTd11" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh9'>&nbsp;</span><input id='hdnCh9' value='Adj. book value per share~Rs~37.8,45.8,59.1,72.4,89.4,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Shares outstanding (eoy)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">207.12</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,035.58</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,035.58</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,035.58</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,071.16</td><td id="tdChTd12" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Bonus/Rights/Conversions</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">&nbsp;</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">FV1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">B1:1</td><td id="tdChTd13" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Price / Sales ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7.4</td><td id="tdChTd14" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Avg P/E ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">21.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">23.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">24.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">37.8</td><td id="tdChTd15" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh10'>&nbsp;</span><input id='hdnCh10' value='Avg P/E ratio~x~21.9,23.2,19.8,24.3,37.8,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">P/CF ratio (eoy)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">21.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">33.4</td><td id="tdChTd16" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh11'>&nbsp;</span><input id='hdnCh11' value='P/CF ratio (eoy)~x~19.7,20.9,17.9,21.9,33.4,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Price / Book Value ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6.4</td><td id="tdChTd17" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh12'>&nbsp;</span><input id='hdnCh12' value='Price / Book Value ratio~x~3.8,4.4,4.3,4.8,6.4,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Dividend payout</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">21.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">16.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">9.9</td><td id="tdChTd18" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Avg Mkt Cap</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">296,285</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">421,481</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">526,592</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">725,942</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,186,775</td><td id="tdChTd19" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">No. of employees</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">`000</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">11.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">12.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14.0</td><td id="tdChTd20" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Total wages/salary</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4,822</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,190</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">11,877</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">15,345</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20,744</td><td id="tdChTd21" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Avg. sales/employee</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs Th</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5,009.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5,114.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6,364.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,071.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">11,486.0</td><td id="tdChTd22" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Avg. wages/employee</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs Th</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">602.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">731.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">942.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,096.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,481.7</td><td id="tdChTd23" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Avg. net profit/employee</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs Th</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,688.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,621.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,108.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,130.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,243.9</td><td id="tdChTd24" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr>
+				                </table>
+				                <table border="0" cellpadding="2" cellspacing="0" width="100%">
+				                
+				                <tr style="height:15px"><td style="width:25%;padding:0px"></td><td style="padding:0px" colspan="7"></td></tr>
+				                
+								<tr style="height:20px;background-color:#eeeeee;"><td colspan="8" style="font-family:Arial;font-size:10pt;color:Black;border-bottom:1px solid #bbbbbb;">
+		                            <b>&nbsp;&nbsp;INCOME DATA</b>
+								</td>
+								</tr>
+								<tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net Sales</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">40,075</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">57,279</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">80,195</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">112,999</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">160,804</td><td id="tdChTd25" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh13'>&nbsp;</span><input id='hdnCh13' value='Net Sales~Rs m~40075,57279,80195,112999,160804,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Other income</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,975</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,120</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,300</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,763</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,647</td><td id="tdChTd26" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Total revenues</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">42,049</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">60,399</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">82,495</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">115,761</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">163,451</td><td id="tdChTd27" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Gross profit</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">13,633</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19,631</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">32,043</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">48,962</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">70,017</td><td id="tdChTd28" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh14'>&nbsp;</span><input id='hdnCh14' value='Gross profit~Rs m~13633,19631,32043,48962,70017,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Depreciation</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,533</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,049</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,912</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,362</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4,092</td><td id="tdChTd29" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Interest</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">739</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">282</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">432</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">442</td><td id="tdChTd30" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Profit before tax</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14,075</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19,964</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">31,150</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">47,932</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">68,130</td><td id="tdChTd31" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Minority Interest</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">41</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-913</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-3,855</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-4,863</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-7,375</td><td id="tdChTd32" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Prior Period Items</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td id="tdChTd33" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Extraordinary Inc (Exp)</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">73</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">395</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,404</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-4,783</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">-22,318</td><td id="tdChTd34" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Tax</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">679</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,286</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,132</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,456</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7,022</td><td id="tdChTd35" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Profit after tax</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">13,511</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">18,161</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">26,567</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">29,831</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">31,415</td><td id="tdChTd36" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh15'>&nbsp;</span><input id='hdnCh15' value='Profit after tax~Rs m~13511,18161,26567,29831,31415,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Gross profit margin</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">34.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">34.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">40.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">43.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">43.5</td><td id="tdChTd37" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh16'>&nbsp;</span><input id='hdnCh16' value='Gross profit margin~%~34.0,34.3,40.0,43.3,43.5,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Effective tax rate</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">10.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">10.3</td><td id="tdChTd38" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net profit margin</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">33.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">31.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">33.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">26.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.5</td><td id="tdChTd39" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh17'>&nbsp;</span><input id='hdnCh17' value='Net profit margin~%~33.7,31.7,33.1,26.4,19.5,' type='hidden' />
+				</td></tr>
+				                </table>
+				                <table border="0" cellpadding="2" cellspacing="0" width="100%">
+				                
+				                <tr style="height:15px"><td style="width:25%;padding:0px"></td><td style="padding:0px" colspan="7"></td></tr>
+				                
+								<tr style="height:20px;background-color:#eeeeee;"><td colspan="8" style="font-family:Arial;font-size:10pt;color:Black;border-bottom:1px solid #bbbbbb;">
+		                            <b>&nbsp;&nbsp;BALANCE SHEET DATA</b>
+								</td>
+								</tr>
+								<tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Current assets</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">36,121</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">76,376</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">102,934</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">115,030</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">186,865</td><td id="tdChTd40" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Current liabilities</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7,579</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17,754</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">26,185</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">28,413</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">59,896</td><td id="tdChTd41" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net working cap to sales</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">71.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">102.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">95.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">76.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">79.0</td><td id="tdChTd42" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh18'>&nbsp;</span><input id='hdnCh18' value='Net working cap to sales~%~71.2,102.3,95.7,76.7,79.0,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Current ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3.1</td><td id="tdChTd43" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh19'>&nbsp;</span><input id='hdnCh19' value='Current ratio~x~4.8,4.3,3.9,4.0,3.1,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Inventory Days</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Days</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">98</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">95</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">95</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">83</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">71</td><td id="tdChTd44" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh20'>&nbsp;</span><input id='hdnCh20' value='Inventory Days~Days~98,95,95,83,71,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Debtors Days</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Days</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">107</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">73</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">95</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">78</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">50</td><td id="tdChTd45" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh21'>&nbsp;</span><input id='hdnCh21' value='Debtors Days~Days~107,73,95,78,50,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net fixed assets</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">16,776</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">27,568</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">32,742</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">50,771</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">58,242</td><td id="tdChTd46" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Share capital</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,036</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,036</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,036</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,036</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">2,071</td><td id="tdChTd47" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">"Free" reserves</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">73,910</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">90,935</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">112,503</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">136,274</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">163,019</td><td id="tdChTd48" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net worth</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">78,289</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">94,833</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">122,358</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">149,897</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">185,250</td><td id="tdChTd49" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Long term debt</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">146</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,573</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,554</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">1,153</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">487</td><td id="tdChTd50" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Total assets</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">90,721</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">124,176</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">164,740</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">205,827</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">293,708</td><td id="tdChTd51" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh22'>&nbsp;</span><input id='hdnCh22' value='Total assets~Rs m~90721,124176,164740,205827,293708,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Interest coverage</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">NM</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">28.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">111.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">112.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">155.2</td><td id="tdChTd52" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Debt to equity ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0</td><td id="tdChTd53" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh23'>&nbsp;</span><input id='hdnCh23' value='Debt to equity ratio~x~0.0,0.0,0.0,0.0,0.0,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Sales to assets ratio</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">x</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.4</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.5</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">0.5</td><td id="tdChTd54" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Return on assets</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">15.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">16.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">10.8</td><td id="tdChTd55" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh24'>&nbsp;</span><input id='hdnCh24' value='Return on assets~%~14.9,15.2,16.3,14.7,10.8,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Return on equity</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.3</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">21.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.0</td><td id="tdChTd56" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh25'>&nbsp;</span><input id='hdnCh25' value='Return on equity~%~17.3,19.2,21.7,19.9,17.0,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Return on capital</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">18.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">24.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">25.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20.9</td><td id="tdChTd57" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh26'>&nbsp;</span><input id='hdnCh26' value='Return on capital~%~18.1,20.9,24.2,25.6,20.9,' type='hidden' />
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Exports to sales</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">20.9</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">15.6</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">18.2</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">17.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14.1</td><td id="tdChTd58" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Imports to sales</td>
+				  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">%</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8.8</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7.1</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6.0</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4.7</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3.6</td><td id="tdChTd59" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center">&nbsp;
+				</td></tr>
+<!--</table>-->
+<!-- End of Financial Results -->
+
+<!-- Fx Transaction -->
+<tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Exports (fob)</td>
+			<td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,390</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,964</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14,628</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19,238</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">22,713</td><td id="tdChTd60" width="10%" style="border-bottom:1px solid #bbbbbb;">&nbsp;</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Imports (cif)</td>
+			<td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,515</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4,040</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4,819</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5,353</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5,779</td><td id="tdChTd61" width="10%" style="border-bottom:1px solid #bbbbbb;">&nbsp;</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Fx inflow</td>
+			<td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,508</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">9,006</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">14,646</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">19,615</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">23,168</td><td id="tdChTd62" width="10%" style="border-bottom:1px solid #bbbbbb;">&nbsp;</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Fx outflow</td>
+			<td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">4,629</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">5,157</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">6,369</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">7,877</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">12,629</td><td id="tdChTd63" width="10%" style="border-bottom:1px solid #bbbbbb;">&nbsp;</td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Net fx</td>
+			<td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,879</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">3,849</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">8,277</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">11,739</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">10,539</td><td id="tdChTd64" width="10%" style="border-bottom:1px solid #bbbbbb;">&nbsp;</td></tr>
+</table>
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr style="height:15px"><td style="width:25%;padding:0px"></td><td style="padding:0px" colspan="7"></td></tr>
+<tr style="height:20px;background-color:#eeeeee;"><td colspan="8" style="font-family:Arial;font-size:10pt;color:Black;border-bottom:1px solid #bbbbbb;">
+<b>&nbsp;&nbsp;CASH FLOW</b>
+</td></tr>
+<tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	From Operations</td>
+			  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	7,811</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	22,831</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	22,345</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	33,566</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	39,592</td><td id="tdChTd65" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh27'>&nbsp;</span><input id='hdnCh27' value='Cash Flow From Operations~Rs m~7811,22831,22345,33566,39592,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	From Investments</td>
+			  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-2,137</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-18,477</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-8,627</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-26,351</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-23,668</td><td id="tdChTd66" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh28'>&nbsp;</span><input id='hdnCh28' value='Cash Flow From Investments~Rs m~-2137,-18477,-8627,-26351,-23668,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	From Financial Activity</td>
+			  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-3,464</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-8,042</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-5,444</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-6,650</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	5,066</td><td id="tdChTd67" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh29'>&nbsp;</span><input id='hdnCh29' value='Cash Flow From Financial Activity~Rs m~-3464,-8042,-5444,-6650,5066,' type='hidden' /></td></tr><tr><td width="25%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	Net Cashflow</td>
+			  <td width="10%" align="right" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	Rs m</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	2,210</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	-3,688</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	8,274</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	565</td><td align="right" width="11%" style="font-family:Arial;font-size:9pt;border-bottom:1px solid #bbbbbb;">	20,990</td><td id="tdChTd68" width="10%" style="border-bottom:1px solid #bbbbbb;" align="center"><span id='spnCh30'>&nbsp;</span><input id='hdnCh30' value='Net Cashflow~Rs m~2210,-3688,8274,565,20990,' type='hidden' /></td></tr>
+	<tr style="font-family:Arial;font-size:8pt;">
+	    <td colspan="1"><span style="color:red">*</span> Results Consolidated</td>
+	    <td colspan="4" align="center">Source: Company Annual Reports, Regulatory Filings, Equitymaster</td>
+	    <td colspan="3" align="right" style="font-family:Arial"><font size="3"><b>&#187;</b></font>&nbsp;&nbsp;<a href="/research-it/company-info/quarterly-company-results.asp?h_CodeScrip=SUNP&name=SUN-PHARMA-Quarterly-Result&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Historical-quarterly-results" style="color:Blue">Historical quarterly results for <span  class="capitalize">sun pharmaceutical industries limited</span></a></td>
+	</tr>
+	</table>
+<!--End of Fx Transactions -->
+
+<!--Capacity Data -->
+    
+<!--end of Capacity Data -->
+
+<!--Raw Material Data-->
+
+<!--end of Raw Material Data -->
+<!--Shareholding Pattern-->
+    <br />
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="width:38%" valign="top">
+    <table border="0" cellpadding="2" cellspacing="0" width="100%">
+	<tr>
+	    <td colspan="3">
+		    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+			    <tr>
+			        <td width="138px" style="background-color:Red;font-family:Arial;font-size:9pt;color:white"><a name="Share"><b>&nbsp;Share Holding</b></a></td>
+			        <td width="*"><hr noshade color="black" size="1" width="100%" /></td>
+			        <!--td width="50px" align="right" style="font-family:Arial;font-size:9pt"><a href="#Top" style="color:blue">Top</a></td-->
+			    </tr>
+		    </table>
+		</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom:1px solid #bbbbbb;" width="40%" align="left">Indian Promoters</td>
+		<td style="border-bottom:1px solid #bbbbbb;" width="20%" align="right">:</td>
+		<td style="border-bottom:1px solid #bbbbbb;" width="40%" align="right">63.7%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom:1px solid #bbbbbb;" align="left">Foreign collaborators</td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">0.0%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom:1px solid #bbbbbb;" align="left">Indian inst/Mut Fund</td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">5.1%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom:1px solid #bbbbbb;" align="left"><a href="/india-markets/fiis/?utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=FIIs" style="color:Black">FIIs</a></td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom:1px solid #bbbbbb;" align="right">23.0%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    
+	    <td style="border-bottom: 1px solid #bbbbbb;" align="left"><a href="/stockquotes/adr.asp?utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=ADR-GDR" style="color:Black">ADR/GDR</a></td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">0.0%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom: 1px solid #bbbbbb;" align="left">Free float</td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">8.3%</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td style="border-bottom: 1px solid #bbbbbb;" align="left">Shareholders</td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">:</td>
+		<td style="border-bottom: 1px solid #bbbbbb;" align="right">133,026</td>
+	</tr>
+	<tr style="font-family:Arial;font-size:9pt;">
+	    <td align="left">Pledged promoter(s) holding</td>
+		<td align="right">:</td>
+		<td align="right">0.2%</td>
+	</tr>
+    </table>
+</td>
+<!--End of Shareholding Patterm-->
+<!--Company Information -->
+<td style="width:4%"></td>
+<td style="width:58%" valign="top">
+<table cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td colspan="6">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+	        <td width="138px" style="background-color:Red;font-family:Arial;font-size:9pt;color:white"><a name="CmpInfo"><b>&nbsp;Company Information</b></a></td>
+		    <td width="*"><hr noshade color="black" size="1" width="100%" /></td>
+		    <td width="50px" align="right" style="font-family:Arial;font-size:9pt"><a href="#Top" style="color:blue">Top</a></td>
+	    </tr>
+    </table>
+</td>
+</tr>
+<tr valign="top">
+<td style="font-family:Arial;font-size:9pt;width:90px;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;REGD OFF:</td>
+<td style="font-family:Arial;font-size:9pt;" colspan="3">Sun Pharma Advanced Research Centre, Tandalja, Vadodara - 390 020             </td>
+<td></td>
+</tr>
+<tr valign="top">
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;E-MAIL:</td>
+<td style="font-family:Arial;font-size:9pt;">sunil.ajmera@sunpharma.com</td>
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;WEB:</td>
+<td style="font-family:Arial;font-size:9pt;"><a href='http://www.sunpharma.com' rel='nofollow' style='color:Black;text-decoration:none' target='_blank'>www.sunpharma.com</a></td>
+<td></td>
+</tr>
+<tr valign="top">
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;TELEPHONE:</td>
+<td style="font-family:Arial;font-size:9pt;">(022) 6696 9696</td>
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;FAX:</td>
+<td style="font-family:Arial;font-size:9pt;">(022) 2821 2010</td>
+<td></td>
+</tr>
+<tr valign="top">
+
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;SECTOR:</td>
+<td style="font-family:Arial; font-size:9pt;"><a href='/research-it/sector-info/pharma?utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=Sector' style='color:black'>PHARMACEUTICALS</a></td>
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;GROUP:</td>
+<td style="font-family:Arial;font-size:9pt;">MISCELLANEOUS</td>
+<td></td>
+</tr>
+<tr valign="top">
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;TR AGENT:</td>
+<td style="font-family:Arial;font-size:9pt;" colspan="3">Link Intime India, C13, Pannalal Silk Mills Cmpd., LBS Marg, Mumbai-78</td>
+<td></td>
+</tr>
+
+<tr valign="top">
+<td style="font-family:Arial;font-size:9pt;background-image:url(http://www.eqimg.com/images/homesp.png);background-position:-8px -165px;background-repeat:no-repeat no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;AUDITOR:</td>
+<td style="font-family:Arial;font-size:9pt;" colspan="3">Deloitte Haskins & Sells</td>
+<td></td>
+</tr>
+
+</table>
+</td>
+</tr>
+<tr><td colspan="3" style="border-bottom:1px solid #bbbbbb;border-top:1px solid #bbbbbb;font-family:Arial;font-size:9pt">
+<table cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+
+<td><b>CHM:</b>&nbsp;<span style="font-family:Arial;font-size:9pt;">Israel Makov</span></td>
+
+<td><b>COMP SEC:</b>&nbsp;<span style="font-family:Arial;font-size:9pt;">Sunil R. Ajmera</span></td>
+
+<td><b>YEAR OF INC:</b>&nbsp;<span style="font-family:Arial;font-size:9pt;">1993</span></td>
+
+<td><b>BSE CODE:</b>&nbsp;<span style="font-family:Arial;font-size:9pt;"><a href="/result.asp?symbol=SUNP&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=BSE-CODE" style="color:Black">524715</a></span></td>
+
+<td><b>FV (Rs):</b>&nbsp;<span style="font-family:Arial;font-size:9pt;">1</span></td>
+
+<td><b>DIV YIELD (%):</b>&nbsp;<span style="font-family:Arial;font-size:9pt;">0.2</span></td>
+
+</tr>
+</table>
+</td></tr>
+</table>
+<!--End of Company Information -->
+<!--Peer Group Companies -->
+
+<br />
+<table cellspacing='0' cellpadding='0' border='0' width='100%'>
+<tr style='font-family:Arial;font-size:8pt;'>
+<td style="vertical-align:top;width:100%" class="capitalize" align="center"><span style="font-size:9pt">More pharmaceuticals Company Fact Sheets:</span>&nbsp;&nbsp;
+<a href='/research-it/company-info/detailed-financial-information.asp?symbol=WOCK&name=WOCKHARDT-LTD-Detailed-Financial-Data&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=More-Company-Fact-Sheets' title='WOCKHARDT LTD. Detailed Financial Information' style='color:blue'>WOCKHARDT LTD.</a><span style='padding-left:10px'></span><a href='/research-it/company-info/detailed-financial-information.asp?symbol=TORR&name=TORRENT-PHARMA-Detailed-Financial-Data&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=More-Company-Fact-Sheets' title='TORRENT PHARMA Detailed Financial Information' style='color:blue'>TORRENT PHARMA</a><span style='padding-left:10px'></span><a href='/research-it/company-info/detailed-financial-information.asp?symbol=NVRT&name=NOVARTIS-Detailed-Financial-Data&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=More-Company-Fact-Sheets' title='NOVARTIS Detailed Financial Information' style='color:blue'>NOVARTIS</a><span style='padding-left:10px'></span><a href='/research-it/company-info/detailed-financial-information.asp?symbol=APLL&name=ALEMBIC-PHARMA-Detailed-Financial-Data&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=More-Company-Fact-Sheets' title='ALEMBIC PHARMA Detailed Financial Information' style='color:blue'>ALEMBIC PHARMA</a><span style='padding-left:10px'></span><a href='/research-it/company-info/detailed-financial-information.asp?symbol=PLLB&name=STRIDES-ARCOLAB-Detailed-Financial-Data&utm_source=CompInfoPage&utm_medium=Website&utm_campaign=usage&utm_content=More-Company-Fact-Sheets' title='STRIDES ARCOLAB Detailed Financial Information' style='color:blue'>STRIDES ARCOLAB</a><span style='padding-left:10px'></span>
+</td></tr></table>
+
+<!--End of Peer Group Companies -->
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td style="padding:0px 0px 10px;padding-top:7px;"></td></tr>
+<tr>
+<td style="padding:0px 0px 10px;padding-top:5px;">
+
+<table cellpadding="0" cellspacing="0" width="612px" align="center">
+<tr><td style="vertical-align:middle" align="left">
+		<div id="objAdsOutput" style="text-align:left">
+		<table cellpadding="0" cellspacing="0" width="612px">
+		<tr>
+		<td style="width: 100%">
+		<!--ads for subs start-->
+		<script language="javaScript">rotateHomeBanner_New();</script>
+		<!--ads for subs end-->
+		</td></tr></table>
+		</div>
+</td></tr>
+<tr><td>
+
+<script type="text/javascript">fnAds("YELLOW",'');</script>
+
+</td></tr></table>
+
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="2" cellspacing="0" width="100%" >
+<tr>
+    <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td>
+    
+    <table border="0" cellpadding="1" cellspacing="0" width='100%'>
+	<tr>
+	<td width="100%" style="font-family: Arial; font-size: 13px; font-weight: bold;border-bottom:solid 1px #bbbbbb;padding-top:20px;text-transform:uppercase">Views on news</td>
+    </tr>
+	
+	<tr valign="top"><td>
+    
+	<div><ul style="font-family:Arial;font-size:13px;list-style-type:square;margin:0px;padding-left:15px">
+	
+	            <li style="padding-top:10px">
+                <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=03/21/2014&story=1&title=Cipla-Limited-On-a-growth-drive&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Cipla Limited: On a growth drive</a>
+                
+	                    <a href='/outsideview/archives.asp?cat=25&title=Cool-Hand-Luke&utm_source=bottomviews&utm_medium=website&utm_campaign=outside-view&utm_content=red-link' style="font-family:Arial;font-size:10px;color:Red;text-decoration:none" onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(Cool Hand Luke)</a>
+	            
+                </div>
+                <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Mar 21, 2014)</div>
+                <div>Luke Verghese discusses that Cipla's financials are on a roll</div>
+                <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+                <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+	            </li>
+	    
+	            <li style="padding-top:10px">
+                <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=12/17/2013&story=1&title=GSK-pharmas-Open-offer-Our-view&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">GSK pharma's Open offer: Our view</a>
+                
+	                    <a href='/research-it/?utm_source=bottomviews&utm_medium=website&utm_campaign=company-info&utm_content=red-link' style="font-family:Arial;font-size:10px;color:Red;text-decoration:none" onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(Company Info)</a>
+	            &nbsp;<a href='/sfeatures.html' target='_blank'><img border='0' title='Subscriber Feature' src='/blips/s.gif' align='absmiddle' /></a>
+                </div>
+                <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Dec 17, 2013)</div>
+                <div>Should investors take advantage of the buy back offer and offload shares of GSK Pharma?</div>
+                <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+                <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+	            </li>
+	    
+	            <li style="padding-top:10px">
+                <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=10/09/2013&story=3&title=Foreign-investment-in-pharma-walking-a-thin-line&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Foreign investment in pharma; walking a thin line</a>
+                
+	                    <a href='/outlook/archives.asp?h_type=59&utm_source=bottomviews&utm_medium=website&utm_campaign=what-were-reading&utm_content=red-link' style="font-family:Arial;font-size:10px;color:Red;text-decoration:none" onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(What We're Reading)</a>
+	            
+                </div>
+                <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Oct 9, 2013)</div>
+                <div>Here is today's recommended reading list from Equitymaster...</div>
+                <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+                <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+	            </li>
+	    
+	            <li style="padding-top:10px">
+                <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=09/24/2013&story=4&title=Divis-Laboratories-Cash-rich-operations&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Divi's Laboratories: Cash rich operations</a>
+                
+	                    <a href='/outsideview/archives.asp?cat=25&title=Cool-Hand-Luke&utm_source=bottomviews&utm_medium=website&utm_campaign=outside-view&utm_content=red-link' style="font-family:Arial;font-size:10px;color:Red;text-decoration:none" onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(Cool Hand Luke)</a>
+	            
+                </div>
+                <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 24, 2013)</div>
+                <div>Luke Verghese discusses that Divi's Laboratories is professionally managed</div>
+                <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+                <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+	            </li>
+	    
+	            <li style="padding-top:10px">
+                <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=09/18/2013&story=2&title=Sun-Pharma-Advanced-Research-Strong-RD-focus&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Sun Pharma Advanced Research: Strong R&D focus</a>
+                
+	                    <a href='/outsideview/archives.asp?cat=25&title=Cool-Hand-Luke&utm_source=bottomviews&utm_medium=website&utm_campaign=outside-view&utm_content=red-link' style="font-family:Arial;font-size:10px;color:Red;text-decoration:none" onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(Cool Hand Luke)</a>
+	            
+                </div>
+                <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 18, 2013)</div>
+                <div>The Company is being very judiciously funded through permanent capital, and unsecured debt at favourable terms</div>
+                <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+                <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+	            </li>
+	    
+  
+    <li style="color:black;list-style-type:none;font-size: 8pt; font-family: arial">
+    
+	    <a href="/f-detail.ASP?Symbol=SUNP&utm_source=bottomviews&utm_medium=website&utm_campaign=related-articles&utm_content=more" style="color:black">More Views on News</a>
+    
+    </li>
+    </ul>
+    </div>
+
+
+    </td>
+    </tr>
+    <tr>
+	<td width="100%" style="font-family: Arial; font-size: 13px; font-weight: bold;border-bottom:solid 1px #bbbbbb;padding-top:20px;text-transform:uppercase">MOST POPULAR</td>
+    </tr>
+    <tr>
+    <td>
+    
+    <div><ul style="font-family:Arial;font-size:13px;list-style-type:square;margin:0px;padding:0px;padding-left:15px;">
+
+
+        <li style="padding-top:10px">
+        <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=09/12/2014&story=5&title=Are-We-On-The-Threshold-Of-A-Mega-Returns-Opportunity&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Are We On The Threshold Of A Mega Returns Opportunity?</a>&nbsp;<a href='/5MinWrapUp/archives.asp?utm_source=bottompopular&utm_medium=website&utm_campaign=5-Minute-Wrapup&utm_content=red-link' style='font-family:Arial;font-size:10px;color:Red;text-decoration:none;' onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(The 5 Minute Wrapup)</a>
+        </div>
+        <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 12, 2014)</div>
+        <div>These series will highlight 7 signals that point out to the areas that could possibly witness the maximum wealth creation.</div>
+        <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+        <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+        </li>
+        
+    
+
+        <li style="padding-top:10px">
+        <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/detail.asp?date=09/05/2014&story=9&title=Things-are-not-what-they-seem&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">Things are not what they seem</a>&nbsp;<a href='/dailyreckoning/archives.asp?utm_source=bottompopular&utm_medium=website&utm_campaign=daily-reckoning&utm_content=red-link' style='font-family:Arial;font-size:10px;color:Red;text-decoration:none;' onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(The Daily Reckoning)</a>
+        </div>
+        <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 5, 2014)</div>
+        <div>Bill talks about China and the renminbi and how it poses a threat to the US dollar.</div>
+        <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+        <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+        </li>
+        
+    
+
+        <li style="padding-top:10px">
+        <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/outsideview/detail.asp?date=09/05/2014&story=7&title=A-4%2Dstep-approach-to-plan-your-vacation&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">A 4-step approach to plan your vacation</a>
+        </div>
+        <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 5, 2014)</div>
+        <div>In order to de-stress, a lot of people prefer going for a holiday with their families. PersonalFN discusses how one can plan for their vacation prudently without having to take any loans for the same.</div>
+        <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+        <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+        </li>
+        
+    
+
+        <li style="padding-top:10px">
+        <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="http://www.dailyprofithunter.com/detail.aspx?date=09/05/2014&story=25&title=How-to-Turn-Stress-into-Profits&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">How to Turn Stress into Profits</a>&nbsp;<a href='http://www.dailyprofithunter.com/detail.aspx?utm_source=bottompopular&utm_medium=website&utm_campaign=research-digest&utm_content=red-link' style='font-family:Arial;font-size:10px;color:Red;text-decoration:none;' onmouseover="javascript:this.style.textDecoration='underline';" onmouseout="javascript:this.style.textDecoration='none';">(Daily Profit Hunter)</a>
+        </div>
+        <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 5, 2014)</div>
+        <div>Asad Dossani discussed how to turn stress into profits. When we are stressed, our bodies release energy. To become a successful trader, you need to learn how to channel this energy into something productive. In particular, we can channel our energy into making profits. This is how we can turn stress into profits</div>
+        <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+        <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+        </li>
+        
+    
+
+        <li style="padding-top:10px">
+        <div style="padding-bottom:2px"><a style="color:Blue;cursor:pointer;cursor:hand;font-size:large;text-decoration:underline" href="/outsideview/detail.asp?date=09/08/2014&story=2&title=RBI-report-and-aam-aadmi&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=articlelinks">RBI report and aam aadmi</a>
+        </div>
+        <div style="font-family:Verdana;font-size:10px;padding-bottom:2px">(Sep 8, 2014)</div>
+        <div>Mr Tarapore presents a bird's-eye view of the RBI's Annual Report that draws our attention to the major issues and highlights of the Indian economy.</div>
+        <div style="padding:10px 0px;font-size:11px;vertical-align:middle"></div>
+        <div style="padding:0px;border-bottom:solid 1px #eeeeee;color:Gray"></div>
+        </li>
+        
+    
+    <li style="color:black;list-style-type:none;font-size: 8pt; font-family: arial">
+    
+    <a href="/outlook/popular.asp?RA=0&utm_source=bottompopular&utm_medium=website&utm_campaign=related-articles&utm_content=more" style="color:black">More</a>
+    
+    </li>
+    </ul>
+    </div>
+
+    </td>
+    </tr></table>
+</td></tr>
+        </table>
+    </td>
+</tr>
+<tr>
+<td style="padding:0px 0px 4px; padding-top:10px">
+
+<table cellpadding="0" cellspacing="0" width="612px" align="center">
+<tr><td style="vertical-align:middle" align="left">
+		<div id="objAdsOutput" style="text-align:left">
+		<table cellpadding="0" cellspacing="0" width="612px">
+		<tr>
+		<td style="width: 100%">
+		<!--ads for subs start-->
+		<script language="javaScript">rotateHomeBanner_New1();</script>
+		<!--ads for subs end-->
+		</td></tr></table>
+		</div> 
+</td></tr>
+<tr><td>
+
+<script type="text/javascript">fnAds("YELLOW",'');</script>
+
+</td></tr></table>
+
+</td>
+</tr>
+</table>
+</td></tr></table>
+<script type="text/javascript">
+var objXMLRec = null;
+function fnRecordView(){
+try {
+sRecSym = 'SUNP';
+sRecSec = 'pharma';
+sRecSym = "req=recfactsheet&sym=" + sRecSym + "&sec=" + sRecSec;
+objXMLRec = null;
+objXMLRec = GetXmlHttpObj(fnRecordSucc);
+objXMLRec.open("POST", "/include/record.asp", true);
+objXMLRec.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+objXMLRec.send(sRecSym);}catch(e){}
+}
+fnRecordView();
+function fnRecordSucc(){
+}
+</script>
+<div id="divExitPopupInner" style="position:fixed;padding:50px 10px 10px 10px;width:90%;top:0px;z-index:10000;vertical-align:middle;text-align:center;display: none;outline:none" tabindex="0" onkeydown="javascript:fnEscapePopup(event)">
+<table align="center" style="background-color:#ffffff;border:solid 8px #dddddd" width="800px">
+<tr><td id="spnHeader" class="capitalize" align="center" style="padding-top:10px;width:770px;font-family:Calibri,Arial;font-size:14pt;font-weight:bold"></td>
+<td style="width:30px;font-family:Arial;font-size:8pt;"><div style="float:right;position:relative;right:0px;top:-10px"><a onclick="javascript:return hideExitPopup();" style="cursor:pointer;cursor:hand;color:Blue;text-decoration:underline">Close</a></div>
+</td></tr>
+<tr align="center">
+<td colspan="2"><div id="divPrevCh" style="float:left;height:320px;width:60px;vertical-align:middle;padding:100px 10px 0px;"></div><div id="divChart" style="float:left;text-align:center;width:600px;height:400px;vertical-align:middle" align="center"></div><div id="divNextCh" style="float:left;height:320px;width:60px;vertical-align:middle;padding:100px 10px 0px;"></div></td></tr>
+<tr>
+<td colspan="2" align="center"><div style="text-align:center;width:600px;vertical-align:middle" align="center">
+<!-- AddThis Button BEGIN -->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=equitymaster"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+<!-- AddThis Button END -->
+</div></td></tr>
+<tr style="height:15px;"><td></td>
+<td style="width:30px;font-family:Arial;font-size:8pt;"><div style="float:right;position:relative;right:0px;top:0px"><a onclick="javascript:return hideExitPopup();" style="cursor:pointer;cursor:hand;color:Blue;text-decoration:underline">Close</a></div></td>
+</tr>
+</table></div>
+<div id='divExitPopup' style="position:absolute;position:fixed;top:0px;bottom:0px;left:0px;right:0px;width:100%;height:100%;vertical-align:middle;background-color:White;filter:alpha(opacity=70);opacity:0.7;z-index:1000;display:none;outline:none" tabindex="1" onkeydown="javascript:fnEscapePopup(event)"></div>
+<script type="text/javascript" src="/js/compinfo8.js"></script>
+<script type="text/javascript">bottomLine();</script>
+</body>
+</html>
