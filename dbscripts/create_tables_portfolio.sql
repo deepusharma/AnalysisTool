@@ -1,8 +1,8 @@
 -- ****************************************************************************
 -- Tables for Portfolio and WatchLists:
 -- ****************************************************************************
-DROP TABLE TRANSACTION_DATA;
-CREATE TABLE TRANSACTION_DATA (
+DROP TABLE IF EXISTS TRANSACTION_DATA;
+CREATE TABLE IF NOT EXISTS TRANSACTION_DATA (
     ID                                INTEGER,
 	STOCK_ID                          INTEGER,
     TRANSACTION_DATE                  DATE,
@@ -10,14 +10,13 @@ CREATE TABLE TRANSACTION_DATA (
 	QUANTITY                          FLOAT,
 	PRICE                             FLOAT,
     BROKERAGE                         FLOAT,
-    STT                               FLOAT	
-	EXCHANGE                          VARCHAR(20)
-	
+    STT                               FLOAT,	
+	EXCHANGE                          VARCHAR(20)	
 ); 
 
 
-DROP TABLE WATCHLIST;
-CREATE TABLE WATCHLIST(
+DROP TABLE IF EXISTS WATCHLIST;
+CREATE TABLE IF NOT EXISTS WATCHLIST(
     ID                                INTEGER,
 	STOCK_ID                          INTEGER,
 	PRICE_ON_RECO_DATE                FLOAT,
