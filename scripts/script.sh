@@ -16,6 +16,7 @@ init(){
 	export TEMP_FILE5=$TEMP_PATH/5
 	export TEMP_FILE6=$TEMP_PATH/6
 	export TEMP_FILE7=$TEMP_PATH/7
+	export TEMP_FILE8=$TEMP_PATH/8
 
 	export URL="http://www.equitymaster.com/research-it/company-info/detailed-financial-information.asp?symbol="$EQM_CODE"&name="$EQM_NAME"-Detailed-Financial-Data&utm_source=stockquote-page&utm_medium=website&utm_campaign=rightband&utm_content=factsheet"
 
@@ -26,6 +27,7 @@ init(){
 	export EQM_BS_FILE="$TEMP_PATH/data_$EQM_CODE"_BS
 	export EQM_CF_FILE="$TEMP_PATH/data_$EQM_CODE"_CF
 	export EQM_SP_FILE="$TEMP_PATH/data_$EQM_CODE"_SP
+	export EQM_YM_FILE="$TEMP_PATH/data_$EQM_CODE"_YM
 
        echo  "ok    $EQM_CODE $EQM_NAME"
 }
@@ -62,9 +64,26 @@ extract_PH(){
 	sed -r 's/&nbsp;//g' $TEMP_FILE2 | tr -s '\t' '\t' > $TEMP_FILE3
 	cat $TEMP_FILE3 | tr -d " \t" | tr -d "\r" > $TEMP_FILE4
 	sed '/^$/d' $TEMP_FILE4 > $TEMP_FILE5
-	tail -38 $TEMP_FILE5 | head -36 |perl -pe 's/\r?\n/|/' > $EQM_PH_FILE
+	tail -38 $TEMP_FILE5 | head -36 |perl -pe 's/\r?\n/|/' | sed 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $EQM_PH_FILE
 
 }
+#------------------------------------------------------------------------------
+#
+#------------------------------------------------------------------------------
+extract_YearMonth(){
+
+	cleanup 
+	
+	#year and month data
+	awk '/End of Price History/ {p=1}; p; /EQUITY SHARE DATA/ {p=0}' $EQM_DATA_FILE > $TEMP_FILE1
+	sed 's/<\([^>]\|\(\"[^\"]\"\)\)*>/\t/g' $TEMP_FILE1 > $TEMP_FILE2
+	sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' | perl -pe 's/\r?\n/\t/'|  tr -s '\t' '\t' > $TEMP_FILE3
+	sed 's/^.*No\. of Months/No\. of Months/g' $TEMP_FILE3 | sed -e 's/\*\t5-Yr.*//g' -e 's/\*\t//g' > $TEMP_FILE4
+	awk -F "\t" '{print "Months\t" $1 "\t" $3 "\t" $5 "\t" $7 "\t" $9 "\t" $11}' $TEMP_FILE4 > $TEMP_FILE5
+	awk -F "\t" '{print "Year\t" $2 "\t" $4 "\t" $6 "\t" $8 "\t" $10 "\t" $12}' $TEMP_FILE4 >> $TEMP_FILE5
+	sed -e 's/\t/|/g' $TEMP_FILE5 | sed "s/^/$EQM_CODE\|/g" > $EQM_YM_FILE
+}
+
 #------------------------------------------------------------------------------
 #
 #------------------------------------------------------------------------------
@@ -94,9 +113,12 @@ extract_ES(){
 	perl -pe 's/\&nbsp\;/\n/g' $TEMP_FILE4 > $TEMP_FILE5
 	perl -pe 's/EQUITY SHARE DATA|INCOME DATA//g' $TEMP_FILE5 > $TEMP_FILE6
 	sed -e 's/\t  \t/\t/g' -e 's/^\t//g' $TEMP_FILE6 > $TEMP_FILE7
-	sed '/^\s*$/d' $TEMP_FILE7 | sed -e 's/\t/|/g' -e 's/,//g'  > $EQM_ES_FILE
+	sed '/^\s*$/d' $TEMP_FILE7 | sed -e 's/\t/|/g' -e 's/,//g' -e 's/|$//g' -e "s/^/$EQM_CODE\|/g" > $TEMP_FILE8
+	cat $EQM_YM_FILE $TEMP_FILE8> $EQM_ES_FILE
+	
 	#sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' > $TEMP_FILE3
-	#sed -e 's/^[ \t\.]*//' $TEMP_FILE3 | cut -f 2-6 | tr -s '\t' '|' | sed '/^\s*$/d'| tr -d "\r" > $EQM_ES_FILE
+	#sed -e 's/^[ \t\.]*//' $TEMP_FILE3 | cut -f 2-6 | tr -s '\t' '|' | sed '/^\s*$/d'| tr -d "\r" > $TEMP_FILE4
+	
 
 
         #### Examples for sed
@@ -139,7 +161,8 @@ extract_ID(){
 	perl -pe 's/\&nbsp\;/\n/g' $TEMP_FILE3 > $TEMP_FILE4
 	perl -pe 's/INCOME DATA	|BALANCE SHEET DATA//g' $TEMP_FILE4 > $TEMP_FILE5
 	sed -e 's/\t  \t/\t/g' -e 's/^\t//g' $TEMP_FILE5 > $TEMP_FILE6
-	sed '/^\s*$/d' $TEMP_FILE6 | sed -e 's/\t/|/g' -e 's/,//g'  > $EQM_ID_FILE
+	sed '/^\s*$/d' $TEMP_FILE6 | sed -e 's/\t/|/g' -e 's/,//g' -e 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $TEMP_FILE7
+	cat $EQM_YM_FILE $TEMP_FILE7 > $EQM_ID_FILE
 	
 	#sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' > $TEMP_FILE3
 	#cat $TEMP_FILE3 | tr -d " \t" > $TEMP_FILE4
@@ -179,7 +202,8 @@ extract_BS(){
 	perl -pe 's/\&nbsp\;/\n/g' $TEMP_FILE4 > $TEMP_FILE5
 	perl -pe 's/BALANCE SHEET DATA|-->|CASH FLOW//g' $TEMP_FILE5 > $TEMP_FILE6
 	sed -e 's/\t  \t/\t/g' -e 's/^\t//g' $TEMP_FILE6 > $TEMP_FILE7
-	sed '/^\s*$/d' $TEMP_FILE7 | sed -e 's/^\t//g' -e 's/\t/|/g' -e 's/,//g' > $EQM_BS_FILE
+	sed '/^\s*$/d' $TEMP_FILE7 | sed -e 's/^\t//g' -e 's/\t/|/g' -e 's/,//g' -e 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $TEMP_FILE8
+	cat $EQM_YM_FILE $TEMP_FILE8 > $EQM_BS_FILE
 	
 	#grep -e [0-9] $TEMP_FILE2 > $TEMP_FILE3
 	#sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' > $TEMP_FILE3
@@ -214,7 +238,8 @@ extract_CF(){
 	perl -pe 's/\&nbsp\;/\n/g' $TEMP_FILE3 > $TEMP_FILE4
 	perl -pe 's/CASH FLOW|^.*Results Consolidated//g' $TEMP_FILE4 > $TEMP_FILE5
 	sed -e 's/\t  \t/\t/g' -e 's/^\t//g' $TEMP_FILE5 > $TEMP_FILE6
-	sed '/^\s*$/d' $TEMP_FILE6 | sed -e 's/^\t//g' -e 's/\t/|/g' -e 's/,//g' > $EQM_CF_FILE
+	sed '/^\s*$/d' $TEMP_FILE6 | sed -e 's/^\t//g' -e 's/\t/|/g' -e 's/,//g' -e 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $TEMP_FILE7
+	cat $EQM_YM_FILE $TEMP_FILE7 > $EQM_CF_FILE
 	
 	#grep -e [0-9] $TEMP_FILE2 > $TEMP_FILE3
 	#sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' > $TEMP_FILE3
@@ -251,7 +276,8 @@ extract_SP(){
 	#cat $TEMP_FILE3 | tr -d " \t" > $TEMP_FILE4
 	sed 's/^:.*//g' $TEMP_FILE4 | sed '/^$/d' > $TEMP_FILE5
 	#tail -38 $TEMP_FILE5 | head -36 |
-	perl -pe 's/ShareHolding|Top//g' $TEMP_FILE5 | perl -pe 's/\r?\n/|/' > $EQM_SP_FILE
+	perl -pe 's/ShareHolding|Top//g' $TEMP_FILE5 | perl -pe 's/\r?\n/|/' | sed -e 's/||//g' -e 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $EQM_SP_FILE
+	
 	#grep -e [0-9] $TEMP_FILE2 > $TEMP_FILE3
 	#sed -r 's/&nbsp;.*//' $TEMP_FILE2 |  tr -s '\t' '\t' > $TEMP_FILE3
 	#cut -f 2 $TEMP_FILE3 | perl -pe 's/\r?\n/|/' > $EQM_SP_FILE
@@ -285,7 +311,9 @@ cleanup(){
 	# Extract Price History Data: 
 	extract_PH
 
-
+	#Extract Year and Month
+	extract_YearMonth
+	
 	# Extract Balance Sheet Data:
 	extract_BS
 
