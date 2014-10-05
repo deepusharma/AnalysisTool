@@ -1,0 +1,34 @@
+1|ALUMINIUM|aluminium|0
+2|AUTO - CARS & JEEPS|autocars&jeeps|0
+3|AUTO - TRACTORS|autotractors|0
+4|AUTO ANCILLARIES|autoancillaries|0
+5|BANKS - PRIVATE SECTOR|banksprivatesector|0
+6|BANKS - PUBLIC SECTOR|bankspublicsector|0
+7|BREWERIES & DISTILLERIES |breweries&distilleries|0
+8|CASTINGS & FORGINGS|castingsforgings|0
+9|CEMENT - MAJOR|cementmajor|0
+10|COMPUTERS - SOFTWARE|computerssoftware|0
+11|COMPUTERS - SOFTWARE - TRAINING|computerssoftwaretraining|0
+12|DIVERSIFIED|diversified|0
+13|ELECTRIC EQUIPMENT|electricequipment|0
+14|ENGINES|engines|0
+15|FINANCE - HOUSING|financehousing|0
+16|FINANCE - INVESTMENTS|financeinvestments|0
+17|FINANCE - LEASING & HIRE PURCHASE|financeleasing&hirepurchase|0
+18|FINANCE - TERM LENDING INSTITUTIONS|financetermlendinginstitutions|0
+19|INFRASTRUCTURE - GENERAL|infrastructuregeneral|0
+20|LEATHER PRODUCTS|leatherproducts|0
+21|MEDIA & ENTERTAINMENT|media&entertainment|0
+22|MINING/MINERALS|mining/minerals|0
+23|MISCELLANEOUS|miscellaneous|0
+24|OIL DRILLING AND EXPLORATION|oildrillingandexploration|0
+25|PAINTS/VARNISHES|paints/varnishes|0
+26|PESTICIDES/AGRO CHEMICALS|pesticides/agrochemicals|0
+27|PHARMACEUTICALS|pharmaceuticals|0
+28|PLASTICS|plastics|0
+29|POWER - GENERATION/DISTRIBUTION|powergeneration/distribution|0
+30|POWER - TRANSMISSION/EQUIPMENT|powertransmission/equipment|0
+31|REFINERIES|refineries|0
+32|TELECOMMUNICATIONS - SERVICE|telecommunicationsservice|0
+33|TRANSPORT & LOGISTICS|transport&logistics|0
+34|TYRES|tyres|0
