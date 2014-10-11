@@ -1,8 +1,8 @@
 -- ****************************************************************************
 -- Temporary Tables for data load:
 -- ****************************************************************************
-DROP TABLE IF EXISTS TMP_COMPANY_MASTER;
-CREATE TABLE IF NOT EXISTS TMP_COMPANY_MASTER (
+DROP TABLE TMP_COMPANY_MASTER;
+CREATE TABLE TMP_COMPANY_MASTER (
     COMPANY_ID                        INTEGER,
     COMPANY_NAME                      VARCHAR(50),
     INDUSTRY_SECTOR                   VARCHAR(50),
@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS TMP_COMPANY_MASTER (
 -- ****************************************************************************
 -- Master Tables for data load:
 -- ****************************************************************************
-DROP TABLE IF EXISTS COMPANY_MASTER;
-CREATE TABLE IF NOT EXISTS COMPANY_MASTER (
+DROP TABLE COMPANY_MASTER;
+CREATE TABLE COMPANY_MASTER (
     COMPANY_ID                        INTEGER,
     COMPANY_NAME                      VARCHAR(50),
     SYMBOL_BSE                        VARCHAR(20),
@@ -50,8 +50,8 @@ CREATE TABLE IF NOT EXISTS COMPANY_MASTER (
   
     
    
-DROP TABLE IF EXISTS SECTOR_MASTER;
-CREATE TABLE IF NOT EXISTS SECTOR_MASTER (
+DROP TABLE SECTOR_MASTER;
+CREATE TABLE SECTOR_MASTER (
     SECTOR_ID                         INTEGER,
     SECTOR_DESC                       INTEGER,
     SECTOR_CODE_MC                    VARCHAR(50),

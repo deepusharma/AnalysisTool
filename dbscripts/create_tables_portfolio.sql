@@ -1,7 +1,7 @@
 -- ****************************************************************************
 -- Tables for Portfolio and WatchLists:
 -- ****************************************************************************
-DROP TABLE IF EXISTS TRANSACTION_DATA;
+DROP TABLE TRANSACTION_DATA;
 CREATE TABLE IF NOT EXISTS TRANSACTION_DATA (
     ID                                INTEGER,
 	STOCK_ID                          INTEGER,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS TRANSACTION_DATA (
 ); 
 
 
-DROP TABLE IF EXISTS WATCHLIST;
+DROP TABLE WATCHLIST;
 CREATE TABLE IF NOT EXISTS WATCHLIST(
     ID                                INTEGER,
 	STOCK_ID                          INTEGER,
