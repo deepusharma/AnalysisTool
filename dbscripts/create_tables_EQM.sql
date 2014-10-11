@@ -1,34 +1,8 @@
 -- ****************************************************************************
 -- Temporary Tables for data load:
 -- ****************************************************************************
-
-DROP TABLE IF EXISTS TMP_COMPANY_MASTER;
-
-CREATE TABLE IF NOT EXISTS TMP_COMPANY_MASTER (
-    COMPANY_ID                        INTEGER,
-    COMPANY_NAME                      VARCHAR(50),
-    INDUSTRY_SECTOR                   VARCHAR(50),
-    MARKET_CAP_TYPE                   VARCHAR(10),
-    SYMBOL_BSE                        VARCHAR(20),
-    SYMBOL_NSE                        VARCHAR(20),
-    SYMBOL_ISIN                       VARCHAR(20),
-    SYMBOL_MONEYCONTROL               VARCHAR(20),
-    SECTOR_CODE_MC                    VARCHAR(20),
-    SYMBOL_BBG                        VARCHAR(20),
-    SYMBOL_EQM                        VARCHAR(20),
-    SYMBOL_EQM_DESC                   VARCHAR(20),
-    SYMBOL_REUTER                     VARCHAR(20),
-    SYMBOL_YAHOO                      VARCHAR(20),
-    SYMBOL_MORNINGSTAR_NSE            VARCHAR(20),
-    SYMBOL_MORNINGSTAR_BSE            VARCHAR(20),
-    SYMBOL_MORNINGSTAR_DESC           VARCHAR(20),
-    SYMBOL_ET                         VARCHAR(20)
-);
-
-
-DROP TABLE IF EXISTS TMP_EQM_PRICE_HISTORY;
-
-CREATE TABLE IF NOT EXISTS TMP_EQM_PRICE_HISTORY (
+DROP TABLE TMP_EQM_PRICE_HISTORY;
+CREATE TABLE TMP_EQM_PRICE_HISTORY (
     COMPANY_CODE                          VARCHAR(4),
     PRICE_COL_NAME                        VARCHAR(50),
     PRICE_COL_UNIT                        VARCHAR(50),
@@ -68,9 +42,10 @@ CREATE TABLE IF NOT EXISTS TMP_EQM_PRICE_HISTORY (
     LOWHIGH_52_WEEK                       FLOAT
 );
 
-DROP TABLE IF EXISTS TMP_EQM_5YEAR_DATA;
 
-CREATE TABLE IF NOT EXISTS TMP_EQM_5YEAR_DATA (
+
+DROP TABLE TMP_EQM_5YEAR_DATA;
+CREATE TABLE TMP_EQM_5YEAR_DATA (
     COMPANY_CODE                      VARCHAR(4),
     DATA_TYPE                         VARCHAR(50),
     DATA_UNIT                         VARCHAR(50),
@@ -81,9 +56,10 @@ CREATE TABLE IF NOT EXISTS TMP_EQM_5YEAR_DATA (
     DATA_YEAR5                        VARCHAR(50)
 );
 
-DROP TABLE IF EXISTS TMP_EQM_SHAREHOLDING;
 
-CREATE TABLE IF NOT EXISTS TMP_EQM_SHAREHOLDING (
+
+DROP TABLE TMP_EQM_SHAREHOLDING;
+CREATE TABLE TMP_EQM_SHAREHOLDING (
    COMPANY_CODE                       VARCHAR(4),
    INDIAN_PROMOTERS_DESC              VARCHAR(40),   
    INDIAN_PROMOTERS                   FLOAT,   
@@ -104,47 +80,10 @@ CREATE TABLE IF NOT EXISTS TMP_EQM_SHAREHOLDING (
 );
 
 
-
--- ****************************************************************************
--- Master Tables for data load:
--- ****************************************************************************
-DROP TABLE IF EXISTS COMPANY_MASTER;
-
-CREATE TABLE IF NOT EXISTS COMPANY_MASTER (
-    COMPANY_ID                        INTEGER,
-    COMPANY_NAME                      VARCHAR(50),
-    SYMBOL_BSE                        VARCHAR(20),
-    SYMBOL_NSE                        VARCHAR(20),
-    SYMBOL_ISIN                       VARCHAR(20),
-    SYMBOL_MONEYCONTROL               VARCHAR(20),
-    SYMBOL_BBG                        VARCHAR(20),
-    SYMBOL_REUTER                     VARCHAR(20),
-    SYMBOL_YAHOO                      VARCHAR(20),
-    SYMBOL_MORNINGSTAR_NSE            VARCHAR(20),
-    SYMBOL_MORNINGSTAR_BSE            VARCHAR(20),
-    SYMBOL_MORNINGSTAR_DESC           VARCHAR(20),
-    SYMBOL_EQM                        VARCHAR(20),
-    SYMBOL_EQM_DESC                   VARCHAR(20),
-    SYMBOL_ET                         VARCHAR(20),
-    MARKET_CAP_TYPE                   VARCHAR(10),
-    SECTOR_ID                         INTEGER
-);
-  
     
-    
-DROP TABLE IF EXISTS SECTOR_MASTER;
 
-CREATE TABLE IF NOT EXISTS SECTOR_MASTER (
-    SECTOR_ID                         INTEGER,
-    SECTOR_DESC                       INTEGER,
-    SECTOR_CODE_MC                    VARCHAR(50),
-    AVERAGE_PE                        FLOAT
-);
-
-
-DROP TABLE IF EXISTS EQM_PRICE_HISTORY;
-
-CREATE TABLE IF NOT EXISTS EQM_PRICE_HISTORY (
+DROP TABLE EQM_PRICE_HISTORY;
+CREATE TABLE EQM_PRICE_HISTORY (
     COMPANY_ID                        INTEGER,
     RECORD_DATE                       DATE,
     PRICE                             FLOAT,
@@ -163,9 +102,8 @@ CREATE TABLE IF NOT EXISTS EQM_PRICE_HISTORY (
 );
 
 
-DROP TABLE IF EXISTS EQM_EQUITY_SHARE_DATA;
-
-CREATE TABLE IF NOT EXISTS EQM_EQUITY_SHARE_DATA (
+DROP TABLE EQM_EQUITY_SHARE_DATA;
+CREATE TABLE EQM_EQUITY_SHARE_DATA (
     COMPANY_ID                        INTEGER,
     RECORD_DATE                       DATE,
     FINANCIAL_YEAR                    INTEGER,
@@ -195,9 +133,11 @@ CREATE TABLE IF NOT EXISTS EQM_EQUITY_SHARE_DATA (
     AVG_NET_PROFIT_PER_EMPLOYEE       FLOAT
 );
 
-DROP TABLE IF EXISTS EQM_INCOME_DATA;
 
-CREATE TABLE IF NOT EXISTS EQM_INCOME_DATA(
+
+
+DROP TABLE EQM_INCOME_DATA;
+CREATE TABLE EQM_INCOME_DATA(
     COMPANY_ID                      INTEGER,
     RECORD_DATE                     DATE,
     FINANCIAL_YEAR                  INTEGER,
@@ -218,9 +158,11 @@ CREATE TABLE IF NOT EXISTS EQM_INCOME_DATA(
     NET_PROFIT_MARGIN               FLOAT
 );
 
-DROP TABLE IF EXISTS EQM_BALANCE_SHEET_DATA;
 
-CREATE TABLE IF NOT EXISTS EQM_BALANCE_SHEET_DATA (
+
+
+DROP TABLE EQM_BALANCE_SHEET_DATA;
+CREATE TABLE EQM_BALANCE_SHEET_DATA (
     COMPANY_ID                      INTEGER,
     RECORD_DATE                     DATE,
     FINANCIAL_YEAR                  INTEGER,
@@ -253,9 +195,9 @@ CREATE TABLE IF NOT EXISTS EQM_BALANCE_SHEET_DATA (
 
  
 
-DROP TABLE IF EXISTS EQM_COMPANY_INFORMATION;
 
-CREATE TABLE IF NOT EXISTS EQM_COMPANY_INFORMATION (
+DROP TABLE EQM_COMPANY_INFORMATION;
+CREATE TABLE EQM_COMPANY_INFORMATION (
     COMPANY_ID                  INTEGER,
     RECORD_DATE                 DATE,
     REGD_OFF                    VARCHAR(200),
@@ -273,9 +215,11 @@ CREATE TABLE IF NOT EXISTS EQM_COMPANY_INFORMATION (
     DIVIDEND_YIELD              FLOAT
 );
 
-DROP TABLE IF EXISTS EQM_CASHFLOW;
 
-CREATE TABLE IF NOT EXISTS EQM_CASHFLOW (
+
+
+DROP TABLE EQM_CASHFLOW;
+CREATE TABLE EQM_CASHFLOW (
    COMPANY_ID                   INTEGER,
    RECORD_DATE                  DATE,
    FINANCIAL_YEAR               INTEGER,
@@ -286,9 +230,10 @@ CREATE TABLE IF NOT EXISTS EQM_CASHFLOW (
 );
 
 
-DROP TABLE IF EXISTS EQM_SHAREHOLDING;
 
-CREATE TABLE IF NOT EXISTS EQM_SHAREHOLDING (
+
+DROP TABLE EQM_SHAREHOLDING;
+CREATE TABLE EQM_SHAREHOLDING (
    COMPANY_ID                   INTEGER,
    RECORD_DATE                  DATE,
    INDIAN_PROMOTERS             FLOAT,   
