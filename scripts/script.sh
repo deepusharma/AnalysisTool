@@ -28,12 +28,13 @@ init(){
 	export EQM_CF_FILE="$TEMP_PATH/data_$EQM_CODE"_CF
 	export EQM_SP_FILE="$TEMP_PATH/data_$EQM_CODE"_SP
 	export EQM_YM_FILE="$TEMP_PATH/data_$EQM_CODE"_YM
+	export EQM_CI_FILE="$TEMP_PATH/data_$EQM_CODE"_CI
 
        echo  "ok    $EQM_CODE $EQM_NAME"
 }
 
 #------------------------------------------------------------------------------
-#
+#Price History
 #------------------------------------------------------------------------------
 extract_PH_old(){
 
@@ -68,7 +69,7 @@ extract_PH(){
 
 }
 #------------------------------------------------------------------------------
-#
+#Year / month data
 #------------------------------------------------------------------------------
 extract_YearMonth(){
 
@@ -85,7 +86,7 @@ extract_YearMonth(){
 }
 
 #------------------------------------------------------------------------------
-#
+#Equity Share data
 #------------------------------------------------------------------------------
 extract_ES_old(){
 
@@ -134,7 +135,7 @@ extract_ES(){
 }
 
 #------------------------------------------------------------------------------
-#
+#Income Data
 #------------------------------------------------------------------------------
 extract_ID_old(){
 	cleanup 
@@ -172,7 +173,7 @@ extract_ID(){
 
 }
 #------------------------------------------------------------------------------
-#
+#Balance Shaeet data
 #------------------------------------------------------------------------------
 extract_BS_old(){
 
@@ -213,7 +214,7 @@ extract_BS(){
 
 }
 #------------------------------------------------------------------------------
-#
+#Cash Flow data
 #------------------------------------------------------------------------------
 extract_CF_old(){
 	cleanup 
@@ -248,7 +249,7 @@ extract_CF(){
 }
 
 #------------------------------------------------------------------------------
-#
+#Share Holding data
 #------------------------------------------------------------------------------
 extract_SP_old(){
 
@@ -283,7 +284,25 @@ extract_SP(){
 	#cut -f 2 $TEMP_FILE3 | perl -pe 's/\r?\n/|/' > $EQM_SP_FILE
 
 }
+#------------------------------------------------------------------------------
+# Comapny Information
+#------------------------------------------------------------------------------
 
+extract_CI(){
+
+	cleanup 
+
+	#Company Information
+	awk '/Company Information/ {p=1}; p; /End of Company Information/ {p=0}' $EQM_DATA_FILE > $TEMP_FILE1
+	sed 's/<\([^>]\|\(\"[^\"]\"\)\)*>/\t/g' $TEMP_FILE1 > $TEMP_FILE2
+	sed -r 's/&nbsp;//g' $TEMP_FILE2 | tr -s '\t' '\t' > $TEMP_FILE3
+	cat $TEMP_FILE3 | tr -d "\t\t" | tr -d "\r" > $TEMP_FILE4
+	perl -pe 's/\r?\n/|/' $TEMP_FILE4 | sed -e 's/\t/|/g' -e 's/|$//g' -e 's/  //g' -e 's/||/|/g' -e 's/||/|/g' -e 's/||/|/g' -e 's/||/|/g'> $TEMP_FILE5
+	perl -pe 's/|Company Information|Top|//g' $TEMP_FILE5 | sed -e 's/|$//g' -e 's/:|/|/g' -e 's/:/|/g' -e 's/||/|/g' -e 's/||/|/g' | sed "s/^/$EQM_CODE/g" > $EQM_CI_FILE
+	#sed '/^$/d' $TEMP_FILE4 > $TEMP_FILE5
+	#tail -38 $TEMP_FILE5 | head -36 |perl -pe 's/\r?\n/|/' | sed 's/|$//g' | sed "s/^/$EQM_CODE\|/g" > $EQM_PH_FILE
+
+}
 
 
 #------------------------------------------------------------------------------
@@ -307,32 +326,30 @@ cleanup(){
 	# extract data from the website:
 	#wget $URL -O $EQM_DATA_FILE
 
-
 	# Extract Price History Data: 
-	extract_PH
+	#extract_PH
 
 	#Extract Year and Month
-	extract_YearMonth
+	#extract_YearMonth
 	
 	# Extract Balance Sheet Data:
-	extract_BS
-
+	#extract_BS
 
 	# Extract Equity Share Data:
-	extract_ES
-
+	#extract_ES
 
 	# Extract Income Data:
-	extract_ID
-
+	#extract_ID
 
 	# Extract Cashflow Data:
-	extract_CF
-
+	#extract_CF
 
 	# Extract Shareholding pattern Data:
-	extract_SP
+	#extract_SP
 
+	# Extract company Information:
+	extract_CI
+	
 	# cleaning all temp files:
 	#cleanup
 
