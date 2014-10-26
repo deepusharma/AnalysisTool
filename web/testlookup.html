@@ -1,0 +1,71 @@
+<html>
+<body>
+<style>
+#displayDiv{
+background-color: #ffffff;
+width: 200;
+}
+</style>
+<script type="text/javascript">
+function ajaxFunction(str)
+{
+	var httpxml;
+
+	try
+	{
+		// Firefox, Opera 8.0+, Safari
+
+		httpxml=new XMLHttpRequest();
+	}
+	catch (e)
+	{
+		// Internet Explorer
+		try
+		{
+			httpxml=new ActiveXObject("Msxml2.XMLHTTP");
+			//alert("IE");
+		}
+		catch (e)
+		{
+			try
+			{
+				httpxml=new ActiveXObject("Microsoft.XMLHTTP");
+				alert("IE2");
+			}
+			catch (e)
+			{
+				alert("Your browser does not support AJAX!");
+				return false;
+			}
+		}
+	}
+
+	function stateChanged()
+	{
+		//alert(httpxml.responseText);
+
+		if(httpxml.readyState==4)
+		{
+			document.getElementById("displayDiv").innerHTML=httpxml.responseText;
+
+		}
+	}
+	var url="testlookup.php";
+
+	url=url+"?txt="+str;
+	url=url+"&sid="+Math.random();
+	httpxml.onreadystatechange=stateChanged;
+	httpxml.open("GET",url,true);
+	httpxml.send(null);
+}
+</script>
+</head>
+<body>
+<form name="myForm">
+<input type="text" onkeyup="ajaxFunction(this.value);" name="username" />
+<div id="displayDiv"></div>
+
+</form>
+
+</body>
+</html>

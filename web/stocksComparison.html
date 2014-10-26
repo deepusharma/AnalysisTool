@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Discovery</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+</head>
+<body>
+<script language="javascript">
+	function getIndustry(select)
+	{
+		var selectedString = select.options[select.selectedIndex].value;
+		alert("Hayiyya");
+		if(selectedString == 1)
+		{
+			document.getElementById("banking").style.display = "block";
+			document.getElementById("pharma").style.display = "none";
+			document.getElementById("infotech").style.display = "none";
+		}
+		else if(selectedString == 2)
+		{
+			document.getElementById("pharma").style.display = "block";
+			document.getElementById("banking").style.display = "none";
+			document.getElementById("infotech").style.display = "none";
+		}
+		else if(selectedString == 3)
+		{
+			document.getElementById("infotech").style.display = "block";
+			document.getElementById("banking").style.display = "none";
+			document.getElementById("pharma").style.display = "none";
+		}
+		else
+		{
+			document.getElementById("").style.display = "none";
+		}
+	}
+ </script>
+<div id="container">
+<div id="header"><h1><a href="index.html">Discovery</a></h1></div>
+  <div id="wrapper">
+    <div id="content">
+	 <p><strong>Compare stocks based on Industry</strong></p>
+	 	<label for="dropdown">Select Industry: </label></th><td>
+	 	<select id="dropdown" name="industry" onchange="getIndustry(this)">
+		 <option value="" disabled="disabled" selected="selected">Please select an industry</option>
+		 <option value="1">BANK</option>
+		 <option value="2">PHARMA</option>
+		 <option value="3">IT</option>
+	 	</select>
+		<div id="banking" style="display:none;">
+
+			<input type="checkbox" name="day" value="mon"/>Mon &nbsp;&nbsp; <input type="checkbox" name="day" value="tue"/>Tue<br/>
+			<input type="checkbox" name="day" value="wed"/>Wed &nbsp;&nbsp; <input type="checkbox" name="day" value="thr"/>Thr<br/>
+			<input type="checkbox" name="day" value="fri"/>Fri &nbsp;&nbsp; <input type="checkbox" name="day" value="sat"/>Sat<br/>
+			<input type="checkbox" name="day" value="sun"/>Sun<br/><br/>
+		</div>
+		<div id="pharma" style="display:none;">
+				<input type="checkbox" name="day" value="mon"/>1 &nbsp;&nbsp; <input type="checkbox" name="day" value="tue"/>Tue<br/>
+				<input type="checkbox" name="day" value="wed"/>2 &nbsp;&nbsp; <input type="checkbox" name="day" value="thr"/>Thr<br/>
+				<input type="checkbox" name="day" value="fri"/>Fri &nbsp;&nbsp; <input type="checkbox" name="day" value="sat"/>Sat<br/>
+				<input type="checkbox" name="day" value="sun"/>Sun<br/><br/>
+		</div>
+		<div id="infotech" style="display:none;">
+				<input type="checkbox" name="day" value="mon"/>ss &nbsp;&nbsp; <input type="checkbox" name="day" value="tue"/>Tue<br/>
+				<input type="checkbox" name="day" value="wed"/>rr &nbsp;&nbsp; <input type="checkbox" name="day" value="thr"/>Thr<br/>
+				<input type="checkbox" name="day" value="fri"/>Fri &nbsp;&nbsp; <input type="checkbox" name="day" value="sat"/>Sat<br/>
+				<input type="checkbox" name="day" value="sun"/>Sun<br/><br/>
+		</div>
+   </div>
+  </div>
+</div>
+  <div id="navigation">
+    <p><strong>Stocks select</strong></p>
+		    <ul>
+		      <li><a href="stockRecomm.html">Stock Recommendations</a></li>
+		      <li><a href="stockMarket.html">Stock Markets</a></li>
+    </ul>
+    <p><strong>Important Links</strong></p>
+    <ul>
+      <li><a href="http://www.equitymaster.com/" target="_blank">Equity Master</a></li>
+      <li><a href="http://www.moneycontrol.com/" target="_blank">Money Control</a></li>
+      <li><a href="http://economictimes.indiatimes.com/" target="_blank">Economic Times</a></li>
+      <li><a href="https://newtrade.sharekhan.com/rmmweb/" target="_blank">ShareKhan</a></li>
+    </ul>
+
+  </div>
+  <div id="extra">
+    <p><strong>Latest News</strong></p>
+    <p>News items related to stocks in our portfolio.</p>
+  </div>
+  <div id="footer">
+    <p><center> Copyright 2014 Shruti Deepak Sharma</center></p>
+  </div>
+</div>
+</body>
+</html>

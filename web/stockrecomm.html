@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Discovery</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+<style>
+#displayDiv{
+background-color: #ffffff;
+width: 200;
+}
+</style>
+<script type="text/javascript">
+function ajaxFunction(str)
+{
+	var httpxml;
+
+	try
+	{
+		// Firefox, Opera 8.0+, Safari
+
+		httpxml=new XMLHttpRequest();
+	}
+	catch (e)
+	{
+		// Internet Explorer
+		try
+		{
+			httpxml=new ActiveXObject("Msxml2.XMLHTTP");
+			//alert("IE");
+		}
+		catch (e)
+		{
+			try
+			{
+				httpxml=new ActiveXObject("Microsoft.XMLHTTP");
+				alert("IE2");
+			}
+			catch (e)
+			{
+				alert("Your browser does not support AJAX!");
+				return false;
+			}
+		}
+	}
+
+	function stateChanged()
+	{
+		//alert(httpxml.responseText);
+
+		if(httpxml.readyState==4)
+		{
+			document.getElementById("displayDiv").innerHTML=httpxml.responseText;
+
+		}
+	}
+	var url="testlookup.php";
+
+	url=url+"?txt="+str;
+	url=url+"&sid="+Math.random();
+	httpxml.onreadystatechange=stateChanged;
+	httpxml.open("GET",url,true);
+	httpxml.send(null);
+}
+</script>
+</head>
+
+<body>
+<div id="container">
+<div id="header"><h1><a href="index.html">Discovery</a></h1></div>
+  <div id="wrapper">
+    <div id="content">
+<p></p>
+<!-- Start of FORM -->
+
+	<form action="addRecomm.php" method="get" autocomplete="off">
+	<table><tr><th></th><th>Add Recommendation</th><th></th></tr>
+	<tr><td>STOCK ID: </td><td><input type="text" onkeyup="ajaxFunction(this.value);" name="compName" />
+<div id="displayDiv"></div></td></tr>
+	<tr><td>PRICE ON RECO DATE: </td><td><input type="text" name="price1"></td></tr>
+	<tr><td>RECO DATE: </td><td><input type="text" name="date1"></td></tr>
+	<tr><td>RECOMMEND: </td><td>Buy : <input type="radio" name="reco" value="buy"></td><td>Sell : <input type="radio" name="reco" value="sell"></td></tr>
+	<tr><td>RECO BY: </td><td><select>
+									<option value="1">Equity Master</option>
+									<option value="2">Money Control</option>
+									<option value="3">ShareKhan</option>
+									<option value="4">ICICI Direct</option>
+								</select></td></tr>
+	<tr><td>TARGET PRICE: </td><td><input type="text" name="price3"></td></tr>
+	<tr><td>TARGET DATE RANGE: <td>FROM : <input type="date" value="" name="dataRange1" size="1"></td><td>TO: <input type="date" value="" name="dataRange2" size="1"></td></tr>
+	<tr><td>NOTES: </td><td><input type="textarea" name="notes"></td></tr>
+	<tr><td></td><td><input  type="submit" name="submit2" value="Submit"></td></tr>
+	</table>
+	</form>
+<!-- End of FORM -->
+    </div>
+  </div>
+  <div id="navigation">
+    <p><strong>Stocks select</strong></p>
+		    <ul>
+		      <li><a href="stockRecomm.html">Stock Recommendations</a></li>
+		      <li><a href="stockMarket.html">Stock Markets</a></li>
+    </ul>
+    <p><strong>Important Links</strong></p>
+    <ul>
+      <li><a href="http://www.equitymaster.com/" target="_blank">Equity Master</a></li>
+      <li><a href="http://www.moneycontrol.com/" target="_blank">Money Control</a></li>
+      <li><a href="http://economictimes.indiatimes.com/" target="_blank">Economic Times</a></li>
+      <li><a href="https://newtrade.sharekhan.com/rmmweb/" target="_blank">ShareKhan</a></li>
+    </ul>
+
+  </div>
+  <div id="extra">
+    <p><strong>Latest News</strong></p>
+    <p>News items related to stocks in our portfolio.</p>
+  </div>
+  <div id="footer">
+    <p><center> Copyright 2014 Shruti Deepak Sharma</center></p>
+  </div>
+</div>
+</body>
+</html>

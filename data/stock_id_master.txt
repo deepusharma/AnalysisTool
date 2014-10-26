@@ -103,3 +103,93 @@
 103|Venus Remedies|PHARMACEUTICALS|UKNOWN|526953|VENUSREM|INE411B01019|VR01|pharmaceuticals||VSRM|VENUS-REMEDIES|VSRM||||venus-remedies|
 104|Wockhardt|PHARMACEUTICALS|UKNOWN|532300|WOCKPHARMA|INE049B01025|W05|pharmaceuticals||WOCK|WOCKHARDT-LTD|WOCK||||wockhardt|
 105|Wyeth|PHARMACEUTICALS|UKNOWN|500095|WYETH|INE378A01012|W11|pharmaceuticals||WYLD|WYETH-LTD|WYLD||||wyeth|
+106|ALLAHABAD BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||ALBK|ALLAHABAD-BANK|||||allahabad-bank|
+107|ANDHRA BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||ANDBK|ANDHRA-BANK|||||andhra-bank|
+108|AXIS BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||UTIB|AXIS-BANK|||||axis-bank|
+109|BANK OF BARODA|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||BOB|BANK-OF-BARODA|||||bank-of-baroda|
+110|BANK OF INDIA|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||BOI|BANK-OF-INDIA|||||bank-of-india|
+111|BANK OF MAHARASHTRA|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||BKMAH|BANK-OF-MAHARASHTRA|||||bank-of-maharashtra|
+112|CANARA BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||CNRA|CANARA-BANK|||||canara-bank|
+113|CITY UNION BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||CTUN|CITY-UNION-BANK|||||city-union-bank|
+114|CORPORATION BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||CRBK|CORPORATION-BANK|||||corporation-bank|
+115|DCB BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||DCBL|DCB-BANK|||||dcb-bank|
+116|DENA BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||DENA|DENA-BANK|||||dena-bank|
+117|DHANLAXMI BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||DHBN|DHANLAXMI-BANK|||||dhanlaxmi-bank|
+118|FEDERAL BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||FED|FEDERAL-BANK|||||federal-bank|
+119|HDFC BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||HDBK|HDFC-BANK|||||hdfc-bank|
+120|IDBI BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||IDBI|IDBI-BANK|||||idbi-bank|
+121|INDIAN BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||INDBK|INDIAN-BANK|||||indian-bank|
+122|INDIAN OVERSEAS BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||IOB|INDIAN-OVERSEAS-BANK|||||indian-overseas-bank|
+123|INDUSIND BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||INDIN|INDUSIND-BANK|||||indusind-bank|
+124|ING VYSYA BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||VYSY|ING-VYSYA-BANK|||||ing-vysya-bank|
+125|J&K BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||JKBK|JK-BANK|||||j&k-bank|
+126|KARNATAKA BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||KBANK|KARNATAKA-BANK|||||karnataka-bank|
+127|KARUR VYSYA BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||KARUR|KARUR-VYSYA-BANK|||||karur-vysya-bank|
+128|KOTAK MAH. BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||KOTAK|KOTAK-MAH-BANK|||||kotak-mah.-bank|
+129|ORIENTAL BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||OBC|ORIENTAL-BANK|||||oriental-bank|
+130|PNB|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||PNB|PNB|||||pnb|
+131|PUNJAB & SIND BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||PSB|PUNJAB--SIND-BANK|||||punjab-&-sind-bank|
+132|SBI|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||SBI|SBI|||||sbi|
+133|SOUTH IND.BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||SIBK|SOUTH-INDBANK|||||south-ind.bank|
+134|SYNDICATE BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||SYBK|SYNDICATE-BANK|||||syndicate-bank|
+135|UNION BANK|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||UNBK|UNION-BANK|||||union-bank|
+136|UNITED BANK OF INDIA|BANKS - PUBLIC SECTOR|UKNOWN|||||bankspublicsector||UTBK|UNITED-BANK-OF-INDIA|||||united-bank-of-india|
+137|VIJAYA BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||VBANK|VIJAYA-BANK|||||vijaya-bank|
+138|YES BANK|BANKS - PRIVATE SECTOR|UKNOWN|||||banksprivatesector||YES|YES-BANK|||||yes-bank|
+139|3I INFOTECH LTD.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||IINFO|3I-INFOTECH-LTD|||||3i-infotech-ltd.|
+140|AFTEK LTD.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||AFTEK|AFTEK-LTD|||||aftek-ltd.|
+141|ALLIED DIGITAL|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ADSL|ALLIED-DIGITAL|||||allied-digital|
+142|ALLSEC TEC|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ALST|ALLSEC-TEC|||||allsec-tec|
+143|APTECH LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||APTTR|APTECH-LTD|||||aptech-ltd|
+144|ARSHIYA INTL.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||IIDF|ARSHIYA-INTL|||||arshiya-intl.|
+145|AURIONPRO SOLN|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||APSL|AURIONPRO-SOLN|||||aurionpro-soln|
+146|BARTRONICS INDIA|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||BART|BARTRONICS-INDIA|||||bartronics-india|
+147|CAREER POINT|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||CPIL|CAREER-POINT|||||career-point|
+148|CMC LTD.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||CMC|CMC-LTD|||||cmc-ltd.|
+149|CORE EDUCATION|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||AKLN|CORE-EDUCATION|||||core-education|
+150|CRANES SOFTWARE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||EDMR|CRANES-SOFTWARE|||||cranes-software|
+151|ECLERX SERVICES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ECXS|ECLERX-SERVICES|||||eclerx-services|
+152|EDUCOMP SOLUTIONS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||EDUCO|EDUCOMP-SOLUTIONS|||||educomp-solutions|
+153|EVERONN EDUCATION|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||EVRON|EVERONN-EDUCATION|||||everonn-education|
+154|FINANCIAL TECH|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||WRWDT|FINANCIAL-TECH|||||financial-tech|
+155|FIRSTSOURCE SOL.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||FSRC|FIRSTSOURCE-SOL|||||firstsource-sol.|
+156|GEODESIC LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||BVHD|GEODESIC-LTD|||||geodesic-ltd|
+157|GEOMETRIC LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||GMSO|GEOMETRIC-LTD|||||geometric-ltd|
+158|GLODYNE TECHNOSERVE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||PARA|GLODYNE-TECHNOSERVE|||||glodyne-technoserve|
+159|GTL LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||GBTL|GTL-LTD|||||gtl-ltd|
+160|HCL TECH.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||HTECH|HCL-TECH|||||hcl-tech.|
+161|HELIOS & MATHESON|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||HEMAT|HELIOS--MATHESON|||||helios-&-matheson|
+162|HEXAWARE TECHNOLOGIES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||APTE|HEXAWARE-TECHNOLOGIES|||||hexaware-technologies|
+163|HOV SERVICES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||HOVS|HOV-SERVICES|||||hov-services|
+164|INFINITE COMPUTER|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ICSL|INFINITE-COMPUTER|||||infinite-computer|
+165|INFO EDGE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||NAUKRI|INFO-EDGE|||||info-edge|
+166|IZMO LIMITED|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||LOGIX|IZMO-LIMITED|||||izmo-limited|
+167|KPIT TECHNOLOGIES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||KPIT|KPIT-TECHNOLOGIES|||||kpit-technologies|
+168|MASTEK|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||MAST|MASTEK|||||mastek|
+169|MICRO TECH|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||MITH|MICRO-TECH|||||micro-tech|
+170|MINDTREE LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||MIND|MINDTREE-LTD|||||mindtree-ltd|
+171|MPHASIS LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||BFL|MPHASIS-LTD|||||mphasis-ltd|
+172|NIIT LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||NIIT|NIIT-LTD|||||niit-ltd|
+173|NIIT TECHNOLOGIES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||NIITT|NIIT-TECHNOLOGIES|||||niit-technologies|
+174|NUCLEUS SOFTWARE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||NUSE|NUCLEUS-SOFTWARE|||||nucleus-software|
+175|ORACLE FINANCIAL SERVICES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||IFLEX|ORACLE-FINANCIAL-SERVICES|||||oracle-financial-services|
+176|PERSISTENT SYSTEMS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||PERSL|PERSISTENT-SYSTEMS|||||persistent-systems|
+177|POLARIS FINANCIAL|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||PLRS|POLARIS-FINANCIAL|||||polaris-financial|
+178|PRITHVI INFO|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||PRTH|PRITHVI-INFO|||||prithvi-info|
+179|ROLTA INDIA|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ROLT|ROLTA-INDIA|||||rolta-india|
+180|SASKEN COMM|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||SASK|SASKEN-COMM|||||sasken-comm|
+181|SONATA SOFTWARE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||SSOW|SONATA-SOFTWARE|||||sonata-software|
+182|SUBEX LTD|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||SUBEX|SUBEX-LTD|||||subex-ltd|
+183|TAKE SOLUTIONS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TAKE|TAKE-SOLUTIONS|||||take-solutions|
+184|TANLA SOLUTIONS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TANSL|TANLA-SOLUTIONS|||||tanla-solutions|
+185|TATA ELXSI|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TTEX|TATA-ELXSI|||||tata-elxsi|
+186|TCS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TCS|TCS|||||tcs|
+187|TECH MAHINDRA|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TEMH|TECH-MAHINDRA|||||tech-mahindra|
+188|TREE HOUSE|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||THEL|TREE-HOUSE|||||tree-house|
+189|TULIP TELECOM|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||TULIP|TULIP-TELECOM|||||tulip-telecom|
+190|VAKRANGEE LTD.|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||VAKRA|VAKRANGEE-LTD|||||vakrangee-ltd.|
+191|VISESH INFOTECHNICS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||VINFY|VISESH-INFOTECHNICS|||||visesh-infotechnics|
+192|WIPRO|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||WPRO|WIPRO|||||wipro|
+193|ZENITH INFOTECH|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ZINF|ZENITH-INFOTECH|||||zenith-infotech|
+194|ZENSAR TECHNOLOGIES|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||FUJI|ZENSAR-TECHNOLOGIES|||||zensar-technologies|
+195|ZYLOG SYSTEMS|COMPUTERS - SOFTWARE|UKNOWN|||||computerssoftware||ZYLOG|ZYLOG-SYSTEMS|||||zylog-systems|
