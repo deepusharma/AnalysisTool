@@ -1,25 +1,19 @@
 @REM ----------------------------------------------------------------------------
-@REM SET the unix utils in the path and save the old path to revert at end of 
-@REM program
+@REM Load the data model
 @REM ----------------------------------------------------------------------------
+sqlite3 ../db/eqm.db < create_tables_master_data.sql
 
-SET OLD_PATH=%PATH%
-SET PATH=../UnxUtils/bin;%PATH%;
+sqlite3 ../db/eqm.db < create_tables_annual_reports.sql
 
-SET SYMBOL=%1
+sqlite3 ../db/eqm.db < create_tables_portfolio.sql
 
-@REM ----------------------------------------------------------------------------
-@REM Call the Script:
-@REM ----------------------------------------------------------------------------
+sqlite3 ../db/eqm.db < create_tables_EQM.sql
 
-REM sh.exe start.sh %SYMBOL%
+sqlite3 ../db/eqm.db < create_views.sql
 
-sh.exe start.sh %SYMBOL%
-
-echo "Symbol is %SYMBOL%"
 
 @REM ----------------------------------------------------------------------------
-@REM Revert Back the Paths:
+@REM Load the Temporary Data:
 @REM ----------------------------------------------------------------------------
 
-@REM SET PATH=%OLD_PATH%
+sqlite3 ../db/eqm.db < loaddata.sql
