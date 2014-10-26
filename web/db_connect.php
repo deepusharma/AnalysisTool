@@ -1,11 +1,18 @@
 <?php
-	$username = "atuser";
-	$password = "@tus3r";
-	$hostname = "localhost"; 
+         class MyDB extends SQLite3
+         {
+            function __construct()
+            {
+               $this->open('../db/eqm.db');
+            }
+         }
+			$db = new MyDB();
+			 if(!$db){
+			 	echo $db->lastErrorMsg();
+			 } else {
+			 	//echo "Opened database successfully\n";
+			 }
+	?>
 
-	//connection to the database
-	mysql_connect($hostname, $username, $password)or die("Unable to connect to MySQL");      
-	mysql_select_db("atdb") or die("Could not select atdb");
-?>
 
 
