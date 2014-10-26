@@ -80,7 +80,41 @@ CREATE TABLE TMP_EQM_SHAREHOLDING (
 );
 
 
-    
+DROP TABLE TMP_EQM_COMPANY_INFORMATION;
+CREATE TABLE TMP_EQM_COMPANY_INFORMATION (
+    COMPANY_CODE                       VARCHAR(4),
+    REGD_OFF_STR                       VARCHAR(10),
+    REGD_OFF                    	   VARCHAR(200),
+    E_MAIL_STR                         VARCHAR(10),
+    E_MAIL                      	   VARCHAR(30),
+    WEB_STR                            VARCHAR(10),
+    WEB                         	   VARCHAR(10),
+    TELEPHONE_STR                      VARCHAR(10),
+    TELEPHONE                          VARCHAR(30),
+    FAX_STR                            VARCHAR(10),
+    FAX                                VARCHAR(30),
+    INDUSTRY_SECTOR_STR                VARCHAR(10),
+    INDUSTRY_SECTOR                    VARCHAR(30),
+    INDUSTRY_GROUP_STR                 VARCHAR(10),
+    INDUSTRY_GROUP                     VARCHAR(30),
+    TR_AGENT_STR                       VARCHAR(10),
+    TR_AGENT                           VARCHAR(30),
+    AUDITOR_STR                        VARCHAR(10),   
+    AUDITOR                            VARCHAR(30),   
+    CHAIRMAN_STR                       VARCHAR(10),
+    CHAIRMAN                           VARCHAR(30),
+    COMPANY_SECRETARY_STR              VARCHAR(10),
+    COMPANY_SECRETARY                  VARCHAR(30),
+	YEAR_OF_INC_STR					   VARCHAR(10),	 
+	YEAR_OF_INC						   VARCHAR(10),	 
+	BSE_SYMBOL_STR					   VARCHAR(10),	 
+	BSE_SYMBOL				   	       VARCHAR(10),	 
+    FACE_VALUE_STR                     VARCHAR(10),
+    FACE_VALUE                         INTEGER,
+    DIVIDEND_YIELD_STR                 VARCHAR(10),
+    DIVIDEND_YIELD                     FLOAT
+);
+   
 
 DROP TABLE EQM_PRICE_HISTORY;
 CREATE TABLE EQM_PRICE_HISTORY (
@@ -130,7 +164,13 @@ CREATE TABLE EQM_EQUITY_SHARE_DATA (
     TOTAL_WAGES_PER_SALARY            FLOAT,
     AVG_SALES_PER_EMPLOYEE            FLOAT,
     AVG_WAGES_PER_EMPLOYEE            FLOAT,
-    AVG_NET_PROFIT_PER_EMPLOYEE       FLOAT
+    AVG_NET_PROFIT_PER_EMPLOYEE       FLOAT,
+    AVG_DIVIDEND_YIELD		      FLOAT,	
+    AVG_P_BY_CF_RATIO		      FLOAT,
+    AVG_PRICE_BY_INCOME_RATIO	      FLOAT,	
+    AVG_PRICE_BY_BOOKVALUE_RATIO      FLOAT,
+    AVG_INCOME_PER_EMPLOYEE           FLOAT,
+    INCOME_PER_SHARE_UNADJ            FLOAT
 );
 
 
@@ -155,11 +195,14 @@ CREATE TABLE EQM_INCOME_DATA(
     PROFIT_AFTER_TAX                FLOAT,
     GROSS_PROFIT_MARGIN             FLOAT,
     EFFECTIVE_TAX_RATE              FLOAT,
-    NET_PROFIT_MARGIN               FLOAT
+    NET_PROFIT_MARGIN               FLOAT,
+    INTEREST_EXPENSE		    FLOAT,	
+    INTEREST_INCOME                 FLOAT,
+    NET_INTEREST_INCOME             FLOAT, 
+    OPERATING_EXPENSE               FLOAT, 
+    PROVISIONS_CONTINGENCIES        FLOAT
 );
-
-
-
+    
 
 DROP TABLE EQM_BALANCE_SHEET_DATA;
 CREATE TABLE EQM_BALANCE_SHEET_DATA (
@@ -190,7 +233,17 @@ CREATE TABLE EQM_BALANCE_SHEET_DATA (
     IMPORTS_CIF                     FLOAT,    
     FX_INFLOW                       FLOAT,
     FX_OUTFLOW                      FLOAT,
-    NET_FX                          FLOAT    
+    NET_FX                          FLOAT,
+    ADVANCES			    FLOAT,	
+    BORROWINGS			    FLOAT,	
+    CAPITAL_ADEQUACY_RATIO          FLOAT,
+    COST_OF_DEPOSITS                FLOAT,
+    CREDIT_DEPOSIT_RATIO            FLOAT,
+    DEPOSITS                        FLOAT,
+    INVESTMENTS                     FLOAT,
+    NET_INTEREST_MARGIN             FLOAT,
+    NET_NPAS                        FLOAT,
+    YIELD_ON_ADVANCES               FLOAT 
 );
 
  
@@ -198,21 +251,23 @@ CREATE TABLE EQM_BALANCE_SHEET_DATA (
 
 DROP TABLE EQM_COMPANY_INFORMATION;
 CREATE TABLE EQM_COMPANY_INFORMATION (
-    COMPANY_ID                  INTEGER,
-    RECORD_DATE                 DATE,
-    REGD_OFF                    VARCHAR(200),
-    E_MAIL                      VARCHAR(30),
-    TELEPHONE                   VARCHAR(30),
-    TR_AGENT                    VARCHAR(30),
-    AUDITOR                     VARCHAR(30),   
-    WEB                         VARCHAR(30),
-    FAX                         VARCHAR(30),
-    INDUSTRY_SECTOR             VARCHAR(30),
-    INDUSTRY_GROUP              VARCHAR(30),
-    CHAIRMAN                    VARCHAR(30),
-    COMPANY_SECRETARY           VARCHAR(30),
-    FACE_VALUE                  INTEGER,
-    DIVIDEND_YIELD              FLOAT
+    COMPANY_ID                         INTEGER,
+    RECORD_DATE                        DATE,
+    REGD_OFF                    	   VARCHAR(200),
+    E_MAIL                      	   VARCHAR(30),
+    WEB                         	   VARCHAR(10),
+    TELEPHONE                          VARCHAR(30),
+    FAX                                VARCHAR(30),
+    INDUSTRY_SECTOR                    VARCHAR(30),
+    INDUSTRY_GROUP                     VARCHAR(30),
+    TR_AGENT                           VARCHAR(30),
+    AUDITOR                            VARCHAR(30),   
+    CHAIRMAN                           VARCHAR(30),
+    COMPANY_SECRETARY                  VARCHAR(30),
+	YEAR_OF_INC						   VARCHAR(10),	 
+	BSE_SYMBOL				   	       VARCHAR(10),	 
+    FACE_VALUE                         INTEGER,
+    DIVIDEND_YIELD                     FLOAT
 );
 
 

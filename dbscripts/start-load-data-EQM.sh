@@ -18,6 +18,7 @@ rm $TARGET_DATA_PATH/data_BS;
 rm $TARGET_DATA_PATH/data_ID; 
 rm $TARGET_DATA_PATH/data_CF; 
 rm $TARGET_DATA_PATH/data_SP;
+rm $TARGET_DATA_PATH/data_CI;
 
 #---------------------------------------------------------------------------
 #stageData: 
@@ -29,6 +30,7 @@ COPY $SOURCE_DATA_PATH/data_$SYMBOL_BS $TARGET_DATA_PATH/data_BS;
 COPY $SOURCE_DATA_PATH/data_$SYMBOL_ID $TARGET_DATA_PATH/data_ID;
 COPY $SOURCE_DATA_PATH/data_$SYMBOL_CF $TARGET_DATA_PATH/data_CF;
 COPY $SOURCE_DATA_PATH/data_$SYMBOL_SP $TARGET_DATA_PATH/data_SP;
+COPY $SOURCE_DATA_PATH/data_$SYMBOL_CI $TARGET_DATA_PATH/data_CI;
 
 #----------------------------------------------------------------------------
 #Load the data 

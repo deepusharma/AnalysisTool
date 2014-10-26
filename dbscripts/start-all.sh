@@ -1,5 +1,5 @@
 
 start-create-db.sh
 start-load-data-master.sh
-bulk-load-data-EQM.sh
+start-bulk-load-data-EQM.sh
 

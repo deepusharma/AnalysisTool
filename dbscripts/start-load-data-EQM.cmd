@@ -18,6 +18,7 @@ DEL %TARGET_DATA_PATH%\data_BS;
 DEL %TARGET_DATA_PATH%\data_ID; 
 DEL %TARGET_DATA_PATH%\data_CF; 
 DEL %TARGET_DATA_PATH%\data_SP;
+DEL %TARGET_DATA_PATH%\data_CI;
 
 @REM ---------------------------------------------------------------------------
 @REM stageData: 
@@ -29,6 +30,7 @@ COPY %SOURCE_DATA_PATH%\data_%SYMBOL%_BS %TARGET_DATA_PATH%\data_BS;
 COPY %SOURCE_DATA_PATH%\data_%SYMBOL%_ID %TARGET_DATA_PATH%\data_ID;
 COPY %SOURCE_DATA_PATH%\data_%SYMBOL%_CF %TARGET_DATA_PATH%\data_CF;
 COPY %SOURCE_DATA_PATH%\data_%SYMBOL%_SP %TARGET_DATA_PATH%\data_SP;
+COPY %SOURCE_DATA_PATH%\data_%SYMBOL%_CI %TARGET_DATA_PATH%\data_CI;
 
 @REM ----------------------------------------------------------------------------
 @REM Load the data 
